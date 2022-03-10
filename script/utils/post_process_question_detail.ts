@@ -1,6 +1,16 @@
 import make_display_value_lists from './make_display_value_lists';
 import { DIFFICULTY, STATUS, PROBLEMS_URL, TAG_URL } from '../constants';
-import { DisplayValue, RawQuestionDetail } from '../types';
+import { DisplayValues, RawQuestionDetail } from '../types';
+import { splice_array_chunks } from '../utils';
+
+const delimiter = (items: string[]) => {
+  if (items[0] === ' ') {
+    items.shift();
+  }
+  else {
+    items.unshift('-');
+  }
+};
 
 const post_process_question_detail = (
   {
@@ -15,22 +25,34 @@ const post_process_question_detail = (
   completed_ids_set: Set<RawQuestionDetail['id']>,
   attempted_ids_set: Set<RawQuestionDetail['id']>,
   title_value_to_id: Record<string, string>,
+  title_value_to_question_folder: Set<RawQuestionDetail['id']>,
 ): Record<string, string> => {
-  const post_process_title = (display: string, value: string) => ({
+  const post_process_display_values = (display: string, value: string): DisplayValues => ({
     display: `${title_value_to_id[value]}. ${display}`,
-    value: `${PROBLEMS_URL}/${value}`,
+    // display: (
+    //   splice_array_chunks(`${title_value_to_id[value]}. ${display}`.split(''), 30, { delimiter })
+    //     .map(it => it.join(''))
+    //     .join('<br />')
+    // ),
+    values: (
+      [
+        '[LeetCode Link]' + `(${PROBLEMS_URL}/${value})`,
+        title_value_to_question_folder.has(value) ? '[My Notes]' + `(to be filled)` : null
+      ]
+        .filter((arg): arg is string => Boolean(arg))
+    ),
   });
 
   // Fine to have question that have no similar questions
   // TODO: Enhance stricter type
-  let similar_questions: DisplayValue[];
+  let similar_questions: DisplayValues[];
   try {
     similar_questions = (
       JSON.parse(raw_similar_questions)
         // Seems like data returned from backend is well-sorted
         // BUT, just in case any data is dirty due to unknown issues
         .sort((q1, q2) => +title_value_to_id[q1.titleSlug as string] - +title_value_to_id[q2.titleSlug as string])
-        .map(({ title, titleSlug }) => post_process_title(title, titleSlug))
+        .map(({ title, titleSlug }) => post_process_display_values(title, titleSlug))
     );
   }
   catch {
@@ -46,11 +68,17 @@ const post_process_question_detail = (
         : STATUS.TODO
   );
 
-  const title: DisplayValue = post_process_title(title_display, title_value);
+  const title: DisplayValues = post_process_display_values(title_display, title_value);
 
-  const topics = raw_topics.map(({ display, value }) => ({
+  const topics: DisplayValues[] = raw_topics.map(({ display, value }) => ({
     display,
-    value: `${TAG_URL}/${value}`
+    values: (
+      [
+        '[LeetCode Link]' + `(${TAG_URL}/${value})`,
+        title_value_to_question_folder.has(value) ? '[My Notes]' + `(to be filled)` : null
+      ]
+        .filter((arg): arg is string => Boolean(arg))
+    )
   }));
 
   const is_free_access = !is_premium;

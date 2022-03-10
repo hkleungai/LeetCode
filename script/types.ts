@@ -14,8 +14,13 @@ export interface QueryBody {
 }
 
 export interface DisplayValue {
-  display: string,
-  value: string
+  display: string;
+  value: string;
+}
+
+export interface DisplayValues {
+  display: string;
+  values: string[];
 }
 
 export interface RawQuestionDetail {
