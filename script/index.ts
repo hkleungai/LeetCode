@@ -5,7 +5,7 @@ import path from 'path';
 
 import { STATUS } from './constants';
 import Requests from './requests';
-import { post_process_question_detail, splice_array_chunks } from './utils';
+import { left_pad_digits, post_process_question_detail, splice_array_chunks } from './utils';
 
 const ENV_PATH = path.resolve(__dirname, '../.env');
 const README_TEMPLATE_PATH = path.resolve(__dirname, '../doc/readme_template.md');
@@ -13,11 +13,11 @@ const README_TARGET_PATH = path.resolve(__dirname, '../readme.md');
 
 dotenv.config({ path: ENV_PATH });
 
-const PAGE_ITEM_SIZE = 200;
+const PAGE_ITEM_SIZE = 100;
 
 const main = async () => {
   console.log('Begin script')
-  console.log('Begin request')
+  console.log('    Begin request')
   const requests = new Requests(process.env.cookie);
   const question_count = await requests.get_question_count();
   if (!question_count) {
@@ -39,8 +39,8 @@ const main = async () => {
     console.error('Ids for attempted questions cannot be retrieved');
     return;
   }
-  console.log('End request')
-  console.log('Begin processing')
+  console.log('    End request')
+  console.log('    Begin processing')
   const completed_ids_set = new Set(completed_ids.map(({ id }) => id));
   const attempted_ids_set = new Set(attempted_ids.map(({ id }) => id));
   const title_value_to_id = Object.fromEntries(
@@ -69,21 +69,23 @@ const main = async () => {
   const readme_template_text = fs.readFileSync(README_TEMPLATE_PATH, { encoding: 'utf8' });
   const content_bullets = (
     question_details_chunks
-      .map((c, i) => (
-        '* '
-        + `[Questions ${i * PAGE_ITEM_SIZE + 1} to ${i * PAGE_ITEM_SIZE + c.length}]`
-        + `(./doc/table-${i + 1}.md)`
-      ))
+      .map((c, i, { length }) => {
+        const left_id = i * PAGE_ITEM_SIZE + 1;
+        const right_id = i * PAGE_ITEM_SIZE + c.length;
+        const table_id = left_pad_digits(i + 1, length);
+        return `* [Questions ${left_id} to ${right_id}](./doc/table-${table_id}.md)`
+      })
       .join('\n')
   );
-  console.log('End processing')
-  console.log('Begin file I/O')
+  console.log('    End processing')
+  console.log('    Begin file I/O')
   const readme_text = readme_template_text.replace('{{ REPLACEMENT }}', content_bullets);
   fs.writeFileSync(README_TARGET_PATH, readme_text);
-  tables.forEach((table, i) => {
-    fs.writeFileSync(path.resolve(__dirname, `../doc/table-${i + 1}.md`), table);
+  tables.forEach((table, i, { length }) => {
+    const table_file = path.resolve(__dirname, `../doc/table-${left_pad_digits(i + 1, length)}.md`);
+    fs.writeFileSync(table_file, table);
   })
-  console.log('End file I/O')
+  console.log('    End file I/O')
   console.log('End script')
 }
 

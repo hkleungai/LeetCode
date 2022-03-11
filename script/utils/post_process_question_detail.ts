@@ -27,21 +27,15 @@ const post_process_question_detail = (
   title_value_to_id: Record<string, string>,
   title_value_to_question_folder: Set<RawQuestionDetail['id']>,
 ): Record<string, string> => {
-  const post_process_display_values = (display: string, value: string): DisplayValues => ({
-    display: `${title_value_to_id[value]}. ${display}`,
-    // display: (
-    //   splice_array_chunks(`${title_value_to_id[value]}. ${display}`.split(''), 30, { delimiter })
-    //     .map(it => it.join(''))
-    //     .join('<br />')
-    // ),
-    values: (
-      [
-        '[LeetCode Link]' + `(${PROBLEMS_URL}/${value})`,
-        title_value_to_question_folder.has(value) ? '[My Notes]' + `(to be filled)` : null
-      ]
-        .filter((arg): arg is string => Boolean(arg))
-    ),
-  });
+  const post_process_display_values = (pseudo_display: string, pseudo_value: string): DisplayValues => {
+    const display = `${title_value_to_id[pseudo_value]}. ${pseudo_display}`;
+    const values = ['[LeetCode Link]' + `(${PROBLEMS_URL}/${pseudo_value})`];
+    if (title_value_to_question_folder.has(pseudo_value)) {
+      values.push('[My Notes]' + `(to be filled)`);
+    }
+    return { display, values };
+  };
+
 
   // Fine to have question that have no similar questions
   // TODO: Enhance stricter type
@@ -70,16 +64,13 @@ const post_process_question_detail = (
 
   const title: DisplayValues = post_process_display_values(title_display, title_value);
 
-  const topics: DisplayValues[] = raw_topics.map(({ display, value }) => ({
-    display,
-    values: (
-      [
-        '[LeetCode Link]' + `(${TAG_URL}/${value})`,
-        title_value_to_question_folder.has(value) ? '[My Notes]' + `(to be filled)` : null
-      ]
-        .filter((arg): arg is string => Boolean(arg))
-    )
-  }));
+  const topics: DisplayValues[] = raw_topics.map(({ display, value }) => {
+    const values = ['[LeetCode Link]' + `(${TAG_URL}/${value})`];
+    if (title_value_to_question_folder.has(value)) {
+      values.push('[My Notes]' + `(to be filled)`);
+    }
+    return { display, values };
+  });
 
   const is_free_access = !is_premium;
 
