@@ -26,13 +26,14 @@ export enum QUERY {
   DETAIL = `#graphql
     query problemsetQuestionList(
       $limit: Int,
+      $skip: Int,
       $filters: QuestionListFilterInput,
     ) {
       questionList(
         limit: $limit
         filters: $filters
         categorySlug: ""
-        skip: 0
+        skip: $skip
       ) {
         data {
           difficulty

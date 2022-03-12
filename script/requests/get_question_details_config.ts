@@ -2,12 +2,13 @@ import { QUERY } from '../constants';
 import type { Nullable, PseudoRequestInterface, RawQuestionDetail } from '../types';
 import { is_valid_question_detail } from '../validators';
 
-const get_question_details_config = (question_count: number): PseudoRequestInterface<Nullable<RawQuestionDetail[]>> => {
+const get_question_details_config = (skip: number, limit: number): PseudoRequestInterface<Nullable<RawQuestionDetail[]>> => {
   const method = 'POST';
   const request_body = {
     query: QUERY.DETAIL,
     variables: {
-      limit: question_count,
+      skip,
+      limit,
       filters: {},
     },
   };

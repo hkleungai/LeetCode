@@ -11,7 +11,7 @@ const splice_array_chunks = <T, >(
     return [raw_array];
   }
   const result: T[][] = [];
-  while (raw_array.length > 1) {
+  while (raw_array.length) {
     result.push(raw_array.splice(0, chunkSize));
   }
   return result;

@@ -33,8 +33,22 @@ const request_for_question_details = async () => {
     throw new Error('Question count cannot be retrieved');
   }
 
-  raw_question_details = await requests.get_question_details(question_count);
-  if (!raw_question_details) {
+  const raw_question_details_promises: ReturnType<Requests['get_question_details']>[] = [];
+  for (let skip = 0; skip < question_count; skip += 50) {
+    raw_question_details_promises.push(requests.get_question_details(skip, 50));
+  }
+  raw_question_details = [];
+  const raw_question_details_chunks = splice_array_chunks(raw_question_details_promises, 15);
+  for (const chunk of raw_question_details_chunks) {
+    const sub_chunks = await Promise.all(chunk);
+    for (const sub_chunk of sub_chunks) {
+      if (!sub_chunk) {
+        throw new Error('Questions cannot be retrieved');
+      }
+      raw_question_details.push(...sub_chunk);
+    }
+  }
+  if (!raw_question_details.length || raw_question_details.length !== question_count) {
     throw new Error('Questions cannot be retrieved');
   }
 };
@@ -58,7 +72,11 @@ const build_question_folders = async () => {
     );
     return [absolute_readme_path, readme_content];
   })
-  const readme_files = await Promise.all(readme_files_promise);
+  const readme_files: string[][] = [];
+  const readme_files_promise_chunks = splice_array_chunks(readme_files_promise, 20);
+  for (const chunk of readme_files_promise_chunks) {
+    readme_files.push(...(await Promise.all(chunk)));
+  }
   readme_files.forEach(([path, file_content]) => {
     safe_fs.writeFileSync(path, file_content);
   })

@@ -12,7 +12,7 @@ abstract class AbstractRequests {
   // eslint-disable-next-line @typescript-eslint/no-empty-function, @typescript-eslint/no-unused-vars
   constructor(cookie?: string) {}
   abstract get_question_count(): Promise<Nullable<number>>;
-  abstract get_question_details(question_count: number): Promise<Nullable<RawQuestionDetail[]>>;
+  abstract get_question_details(skip: number, limit: number): Promise<Nullable<RawQuestionDetail[]>>;
 }
 
 class Requests extends AbstractRequests {
@@ -31,9 +31,9 @@ class Requests extends AbstractRequests {
     })
   }
 
-  get_question_details(question_count: number) {
+  get_question_details(skip: number, limit: number) {
     return this.make_request<RawQuestionDetail[]>({
-      ...get_question_details_config(question_count),
+      ...get_question_details_config(skip, limit),
       axios_instance: this.axios_instance,
     })
   }
