@@ -24,6 +24,7 @@ export interface DisplayValues {
 }
 
 export interface RawQuestionDetail {
+  content: string;
   difficulty: string;
   id: string;
   is_premium: boolean;

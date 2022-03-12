@@ -27,21 +27,21 @@ class Requests extends AbstractRequests {
   make_request = make_request;
 
   get_question_count() {
-    return this.make_request<Nullable<number>>({
+    return this.make_request<number>({
       ...get_question_count_config(),
       axios_instance: this.axios_instance,
     })
   }
 
   get_question_details(question_count: number) {
-    return this.make_request<Nullable<RawQuestionDetail[]>>({
+    return this.make_request<RawQuestionDetail[]>({
       ...get_question_details_config(question_count),
       axios_instance: this.axios_instance,
     })
   }
 
   get_question_ids_by_status(question_count: number, status: string) {
-    return this.make_request<Nullable<Pick<RawQuestionDetail, 'id'>[]>>({
+    return this.make_request<Pick<RawQuestionDetail, 'id'>[]>({
       ...get_question_ids_by_status_config(question_count, status),
       axios_instance: this.axios_instance,
     })

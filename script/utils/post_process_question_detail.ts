@@ -1,7 +1,9 @@
+import path from 'path';
+
 import make_display_value_lists from './make_display_value_lists';
 import { DIFFICULTY, STATUS, PROBLEMS_URL, TAG_URL } from '../constants';
 import { DisplayValues, RawQuestionDetail } from '../types';
-import { splice_array_chunks } from '../utils';
+// import { splice_array_chunks } from '../utils';
 
 const delimiter = (items: string[]) => {
   if (items[0] === ' ') {
@@ -25,14 +27,14 @@ const post_process_question_detail = (
   completed_ids_set: Set<RawQuestionDetail['id']>,
   attempted_ids_set: Set<RawQuestionDetail['id']>,
   title_value_to_id: Record<string, string>,
-  title_value_to_question_folder: Set<RawQuestionDetail['id']>,
+  title_value_to_question_notes_path: Record<string, string>,
 ): Record<string, string> => {
   const post_process_display_values = (pseudo_display: string, pseudo_value: string): DisplayValues => {
     const display = `${title_value_to_id[pseudo_value]}. ${pseudo_display}`;
-    const values = ['[LeetCode Link]' + `(${PROBLEMS_URL}/${pseudo_value})`];
-    if (title_value_to_question_folder.has(pseudo_value)) {
-      values.push('[My Notes]' + `(to be filled)`);
-    }
+    const values = [
+      '[:link:]' + `(${PROBLEMS_URL}/${pseudo_value})`,
+      '[:memo:]' + `(../Notes/Questions/${title_value_to_question_notes_path[pseudo_value]})`
+    ];
     return { display, values };
   };
 
@@ -65,10 +67,12 @@ const post_process_question_detail = (
   const title: DisplayValues = post_process_display_values(title_display, title_value);
 
   const topics: DisplayValues[] = raw_topics.map(({ display, value }) => {
-    const values = ['[LeetCode Link]' + `(${TAG_URL}/${value})`];
-    if (title_value_to_question_folder.has(value)) {
-      values.push('[My Notes]' + `(to be filled)`);
-    }
+    const values = [
+      '[:link:]' + `(${TAG_URL}/${value})`
+    ];
+    // // if (title_value_to_question_folder.has(value)) {
+    // values.push('[My Notes]' + `(to be filled)`);
+    // // }
     return { display, values };
   });
 

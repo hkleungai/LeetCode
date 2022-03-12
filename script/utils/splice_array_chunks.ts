@@ -22,21 +22,4 @@ const splice_array_chunks = <T, >(
   return result;
 }
 
-
-// const test_string = "2006. Count";
-// console.log(
-//   splice_array_chunks(test_string.split(''), 9, {
-//     delimiter: (items: string[]) => {
-//       if (items[0] === ' ') {
-//         items.shift();
-//       }
-//       else {
-//         items.unshift('-');
-//       }
-//     },
-//   })
-//     .map(it => it.join(''))
-//     // .join('<br />')
-// )
-
 export default splice_array_chunks;
