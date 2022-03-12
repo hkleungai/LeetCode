@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Implement <a href="http://www.cplusplus.com/reference/cstring/strstr/" target="_blank">strStr()</a>.</p>
 

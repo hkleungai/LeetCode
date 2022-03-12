@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>We want to split a group of <code>n</code> people (labeled from <code>1</code> to <code>n</code>) into two groups of <strong>any size</strong>. Each person may dislike some other people, and they should not go into the same group.</p>
 

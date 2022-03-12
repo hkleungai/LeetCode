@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an integer array <code>nums</code>. You have an integer array <code>arr</code> of the same length with all values set to <code>0</code> initially. You also have the following <code>modify</code> function:</p>
 <img alt="" src="sample_2_1887.png" style="width: 573px; height: 294px;" />

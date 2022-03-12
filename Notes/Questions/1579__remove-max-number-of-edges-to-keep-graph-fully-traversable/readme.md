@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Alice and Bob have an undirected graph of&nbsp;<code>n</code>&nbsp;nodes&nbsp;and 3 types of edges:</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an integer array <code>nums</code>, partition it into two (contiguous) subarrays <code>left</code> and <code>right</code> so that:</p>
 

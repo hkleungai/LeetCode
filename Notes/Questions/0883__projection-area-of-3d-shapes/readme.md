@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an <code>n x n</code> <code>grid</code> where we place some <code>1 x 1 x 1</code> cubes that are axis-aligned with the <code>x</code>, <code>y</code>, and <code>z</code> axes.</p>
 
@@ -12,7 +12,7 @@
 
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
-<img alt="" src="shadow.png" style="width: 800px; height: 214px;" />
+<img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/08/02/shadow.png" style="width: 800px; height: 214px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,2],[3,4]]
 <strong>Output:</strong> 17

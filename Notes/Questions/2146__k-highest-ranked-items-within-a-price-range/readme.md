@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a <strong>0-indexed</strong> 2D integer array <code>grid</code> of size <code>m x n</code> that represents a map of the items in a shop. The integers in the grid represent the following:</p>
 

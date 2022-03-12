@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given two strings <code>a</code> and <code>b</code> that consist of lowercase letters. In one operation, you can change any character in <code>a</code> or <code>b</code> to <strong>any lowercase letter</strong>.</p>
 

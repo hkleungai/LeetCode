@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given several <code>boxes</code> with different colors represented by different positive numbers.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>An image is represented by an <code>m x n</code> integer grid <code>image</code> where <code>image[i][j]</code> represents the pixel value of the image.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of integers <code>nums</code>, return <em>the number of <strong>good pairs</strong></em>.</p>
 

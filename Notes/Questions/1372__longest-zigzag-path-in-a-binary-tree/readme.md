@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given the <code>root</code> of a binary tree.</p>
 

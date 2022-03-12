@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>In a special ranking system, each voter gives a rank from highest to lowest to all teams participated in the competition.</p>
 

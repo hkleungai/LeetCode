@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a <strong>0-indexed</strong> array <code>arr</code> consisting of <code>n</code> positive integers, and a positive integer <code>k</code>.</p>
 

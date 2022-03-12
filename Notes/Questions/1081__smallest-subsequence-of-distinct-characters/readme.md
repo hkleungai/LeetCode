@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a string <code>s</code>, return <em>the lexicographically smallest subsequence of</em> <code>s</code> <em>that contains all the distinct characters of</em> <code>s</code> <em>exactly once</em>.</p>
 

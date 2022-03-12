@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>The <strong>frequency</strong> of an element is the number of times it occurs in an array.</p>
 

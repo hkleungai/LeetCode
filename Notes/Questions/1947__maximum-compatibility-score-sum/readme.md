@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There is a survey that consists of <code>n</code> questions where each question&#39;s answer is either <code>0</code> (no) or <code>1</code> (yes).</p>
 

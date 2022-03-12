@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a 2D integer array <code>matrix</code>, return <em>the <strong>transpose</strong> of</em> <code>matrix</code>.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array <code>nums</code> of distinct integers, return <em>all the possible permutations</em>. You can return the answer in <strong>any order</strong>.</p>
 

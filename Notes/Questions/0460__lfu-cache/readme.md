@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Design and implement a data structure for a <a href="https://en.wikipedia.org/wiki/Least_frequently_used" target="_blank">Least Frequently Used (LFU)</a> cache.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There is a long and thin painting that can be represented by a number line. The painting was painted with multiple overlapping segments where each segment was painted with a <strong>unique</strong> color. You are given a 2D integer array <code>segments</code>, where <code>segments[i] = [start<sub>i</sub>, end<sub>i</sub>, color<sub>i</sub>]</code> represents the <strong>half-closed segment</strong> <code>[start<sub>i</sub>, end<sub>i</sub>)</code> with <code>color<sub>i</sub></code> as the color.</p>
 

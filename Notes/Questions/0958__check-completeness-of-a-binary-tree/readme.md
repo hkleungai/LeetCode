@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given the <code>root</code> of a binary tree, determine if it is a <em>complete binary tree</em>.</p>
 

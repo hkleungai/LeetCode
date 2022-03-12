@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of <strong>distinct</strong> integers <code>arr</code>, find all pairs of elements with the minimum absolute difference of any two elements.</p>
 

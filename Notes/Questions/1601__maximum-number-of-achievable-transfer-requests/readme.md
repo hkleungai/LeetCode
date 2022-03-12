@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>We have <code>n</code> buildings numbered from <code>0</code> to <code>n - 1</code>. Each building has a number of employees. It&#39;s transfer season, and some employees want to change the building they reside in.</p>
 

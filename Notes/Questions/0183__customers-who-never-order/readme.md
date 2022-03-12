@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Table: <code>Customers</code></p>
 

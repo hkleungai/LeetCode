@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p><strong>HTML entity parser</strong> is the parser that takes HTML code as input and replace all the entities of the special characters by the characters itself.</p>
 

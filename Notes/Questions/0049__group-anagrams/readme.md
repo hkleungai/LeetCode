@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of strings <code>strs</code>, group <strong>the anagrams</strong> together. You can return the answer in <strong>any order</strong>.</p>
 

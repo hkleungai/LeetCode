@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a string <code>s</code>, return <code>true</code><em> if </em><code>s</code><em> is a <strong>good</strong> string, or </em><code>false</code><em> otherwise</em>.</p>
 

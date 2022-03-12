@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an integer <code>n</code>, return <em>the least number of perfect square numbers that sum to</em> <code>n</code>.</p>
 

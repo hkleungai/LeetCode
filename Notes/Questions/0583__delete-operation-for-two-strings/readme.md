@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given two strings <code>word1</code> and <code>word2</code>, return <em>the minimum number of <strong>steps</strong> required to make</em> <code>word1</code> <em>and</em> <code>word2</code> <em>the same</em>.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given <code>n</code> pairs of parentheses, write a function to <em>generate all combinations of well-formed parentheses</em>.</p>
 

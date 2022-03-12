@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A <strong>sentence</strong> is a string of single-space separated words where each word consists only of lowercase letters.</p>
 

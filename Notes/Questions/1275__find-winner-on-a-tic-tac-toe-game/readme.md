@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p><strong>Tic-tac-toe</strong> is played by two players <code>A</code> and <code>B</code> on a <code>3 x 3</code> grid. The rules of Tic-Tac-Toe are:</p>
 

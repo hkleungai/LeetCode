@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given the <code>root</code> node of a binary search tree and two integers <code>low</code> and <code>high</code>, return <em>the sum of values of all nodes with a value in the <strong>inclusive</strong> range </em><code>[low, high]</code>.</p>
 

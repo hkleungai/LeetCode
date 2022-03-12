@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a fixed-length integer array <code>arr</code>, duplicate each occurrence of zero, shifting the remaining elements to the right.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an integer array <code>arr</code>, return <em>the mean of the remaining integers after removing the smallest <code>5%</code> and the largest <code>5%</code> of the elements.</em></p>
 

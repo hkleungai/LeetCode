@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a balanced parentheses string <code>s</code>, return <em>the <strong>score</strong> of the string</em>.</p>
 

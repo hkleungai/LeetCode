@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given two <strong>sorted</strong> arrays of distinct integers <code>nums1</code> and <code>nums2.</code></p>
 

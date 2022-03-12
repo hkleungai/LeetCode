@@ -1,10 +1,10 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of points on the <strong>X-Y</strong> plane <code>points</code> where <code>points[i] = [x<sub>i</sub>, y<sub>i</sub>]</code>, return <em>the area of the largest triangle that can be formed by any three different points</em>. Answers within <code>10<sup>-5</sup></code> of the actual answer will be accepted.</p>
 
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
-<img alt="" src="1027.png" style="height: 369px; width: 450px;" />
+<img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/04/1027.png" style="height: 369px; width: 450px;" />
 <pre>
 <strong>Input:</strong> points = [[0,0],[0,1],[1,0],[0,2],[2,0]]
 <strong>Output:</strong> 2.00000

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an integer array <code>nums</code> and an integer <code>k</code>.</p>
 

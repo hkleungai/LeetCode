@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given two strings <code>s</code> and <code>t</code>, each of which represents a non-negative rational number, return <code>true</code> if and only if they represent the same number. The strings may use parentheses to denote the repeating part of the rational number.</p>
 

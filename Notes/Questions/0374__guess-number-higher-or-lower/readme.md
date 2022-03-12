@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>We are playing the Guess Game. The game is as follows:</p>
 

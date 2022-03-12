@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a list of folders <code>folder</code>, return <em>the folders after removing all <strong>sub-folders</strong> in those folders</em>. You may return the answer in <strong>any order</strong>.</p>
 

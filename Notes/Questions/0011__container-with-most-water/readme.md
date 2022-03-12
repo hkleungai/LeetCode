@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an integer array <code>height</code> of length <code>n</code>. There are <code>n</code> vertical lines drawn such that the two endpoints of the <code>i<sup>th</sup></code> line are <code>(i, 0)</code> and <code>(i, height[i])</code>.</p>
 
@@ -10,7 +10,7 @@
 
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
-<img alt="" src="question_11.jpg" style="width: 600px; height: 287px;" />
+<img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/17/question_11.jpg" style="width: 600px; height: 287px;" />
 <pre>
 <strong>Input:</strong> height = [1,8,6,2,5,4,8,3,7]
 <strong>Output:</strong> 49

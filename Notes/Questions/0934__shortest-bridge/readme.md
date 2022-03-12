@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an <code>n x n</code> binary matrix <code>grid</code> where <code>1</code> represents land and <code>0</code> represents water.</p>
 

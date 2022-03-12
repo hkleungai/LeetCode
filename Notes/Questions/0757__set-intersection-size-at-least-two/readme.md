@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>An integer interval <code>[a, b]</code> (for integers <code>a &lt; b</code>) is a set of all consecutive integers from <code>a</code> to <code>b</code>, including <code>a</code> and <code>b</code>.</p>
 

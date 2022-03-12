@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>An array <code>nums</code> of length <code>n</code> is <strong>beautiful</strong> if:</p>
 

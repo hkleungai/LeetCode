@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an integer <code>n</code>, return <code>true</code><em> if </em><code>n</code><em> has <strong>exactly three positive divisors</strong>. Otherwise, return </em><code>false</code>.</p>
 

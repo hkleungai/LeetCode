@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A <code>3 x 3</code> magic square is a <code>3 x 3</code> grid filled with distinct numbers <strong>from </strong><code>1</code><strong> to </strong><code>9</code> such that each row, column, and both diagonals all have the same sum.</p>
 

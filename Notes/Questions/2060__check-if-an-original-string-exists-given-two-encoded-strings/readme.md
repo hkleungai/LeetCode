@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>An original string, consisting of lowercase English letters, can be encoded by the following steps:</p>
 

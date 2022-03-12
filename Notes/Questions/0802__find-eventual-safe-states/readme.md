@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There is a directed graph of <code>n</code> nodes with each node labeled from <code>0</code> to <code>n - 1</code>. The graph is represented by a <strong>0-indexed</strong> 2D integer array <code>graph</code> where <code>graph[i]</code> is an integer array of nodes adjacent to node <code>i</code>, meaning there is an edge from node <code>i</code> to each node in <code>graph[i]</code>.</p>
 
@@ -8,7 +8,7 @@
 
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
-<img alt="Illustration of graph" src="picture1.png" style="height: 171px; width: 600px;" />
+<img alt="Illustration of graph" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/03/17/picture1.png" style="height: 171px; width: 600px;" />
 <pre>
 <strong>Input:</strong> graph = [[1,2],[2,3],[5],[0],[5],[],[]]
 <strong>Output:</strong> [2,4,5,6]

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There are <code>n</code> soldiers standing in a line. Each soldier is assigned a <strong>unique</strong> <code>rating</code> value.</p>
 

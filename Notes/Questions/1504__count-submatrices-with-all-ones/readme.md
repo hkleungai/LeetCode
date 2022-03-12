@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an <code>m x n</code> binary matrix <code>mat</code>, <em>return the number of <strong>submatrices</strong> that have all ones</em>.</p>
 

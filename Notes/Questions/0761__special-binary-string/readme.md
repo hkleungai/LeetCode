@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p><strong>Special binary strings</strong> are binary strings with the following two properties:</p>
 

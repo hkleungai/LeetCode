@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an integer array <code>nums</code> with possible <strong>duplicates</strong>, randomly output the index of a given <code>target</code> number. You can assume that the given target number must exist in the array.</p>
 

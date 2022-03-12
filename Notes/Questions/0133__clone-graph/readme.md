@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a reference of a node in a <strong><a href="https://en.wikipedia.org/wiki/Connectivity_(graph_theory)#Connected_graph" target="_blank">connected</a></strong> undirected graph.</p>
 

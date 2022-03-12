@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>For a binary tree <strong>T</strong>, we can define a <strong>flip operation</strong> as follows: choose any node, and swap the left and right child subtrees.</p>
 

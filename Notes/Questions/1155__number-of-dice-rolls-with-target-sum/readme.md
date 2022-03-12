@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You have <code>n</code> dice and each die has <code>k</code> faces numbered from <code>1</code> to <code>k</code>.</p>
 

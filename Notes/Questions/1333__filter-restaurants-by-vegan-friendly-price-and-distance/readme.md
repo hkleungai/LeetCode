@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given the array <code>restaurants</code> where &nbsp;<code>restaurants[i] = [id<sub>i</sub>, rating<sub>i</sub>, veganFriendly<sub>i</sub>, price<sub>i</sub>, distance<sub>i</sub>]</code>. You have to filter the restaurants using three filters.</p>
 

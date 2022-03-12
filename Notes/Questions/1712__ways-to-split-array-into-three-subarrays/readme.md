@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A split of an integer array is <strong>good</strong> if:</p>
 

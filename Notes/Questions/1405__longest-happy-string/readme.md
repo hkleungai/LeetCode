@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A string <code>s</code> is called <strong>happy</strong> if it satisfies the following conditions:</p>
 

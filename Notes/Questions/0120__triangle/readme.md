@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a <code>triangle</code> array, return <em>the minimum path sum from top to bottom</em>.</p>
 

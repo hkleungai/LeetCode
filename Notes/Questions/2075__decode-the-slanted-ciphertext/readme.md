@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A string <code>originalText</code> is encoded using a <strong>slanted transposition cipher</strong> to a string <code>encodedText</code> with the help of a matrix having a <strong>fixed number of rows</strong> <code>rows</code>.</p>
 

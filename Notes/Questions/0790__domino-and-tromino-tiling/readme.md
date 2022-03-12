@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You have two types of tiles: a <code>2 x 1</code> domino shape and a tromino shape. You may rotate these shapes.</p>
 <img alt="" src="lc-domino.jpg" style="width: 362px; height: 195px;" />

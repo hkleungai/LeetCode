@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Implement a SnapshotArray that supports the following interface:</p>
 

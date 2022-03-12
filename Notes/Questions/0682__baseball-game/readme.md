@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are keeping score for a baseball game with strange rules. The game consists of several rounds, where the scores of past rounds may affect future rounds&#39; scores.</p>
 

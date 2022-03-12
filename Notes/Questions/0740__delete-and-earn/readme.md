@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an integer array <code>nums</code>. You want to maximize the number of points you get by performing the following operation any number of times:</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There is an exam room with <code>n</code> seats in a single row labeled from <code>0</code> to <code>n - 1</code>.</p>
 

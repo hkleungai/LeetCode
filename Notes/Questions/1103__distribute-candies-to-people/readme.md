@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>We distribute some&nbsp;number of <code>candies</code>, to a row of <strong><code>n =&nbsp;num_people</code></strong>&nbsp;people in the following way:</p>
 

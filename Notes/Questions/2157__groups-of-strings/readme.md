@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a <strong>0-indexed</strong> array of strings <code>words</code>. Each string consists of <strong>lowercase English letters</strong> only. No letter occurs more than once in any string of <code>words</code>.</p>
 

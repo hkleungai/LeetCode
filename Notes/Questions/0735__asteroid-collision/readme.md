@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>We are given an array <code>asteroids</code> of integers representing asteroids in a row.</p>
 

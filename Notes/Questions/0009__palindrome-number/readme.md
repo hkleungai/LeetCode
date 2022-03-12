@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an integer <code>x</code>, return <code>true</code> if <code>x</code> is palindrome integer.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given the <code>root</code> of a binary tree, return the most frequent <strong>subtree sum</strong>. If there is a tie, return all the values with the highest frequency in any order.</p>
 

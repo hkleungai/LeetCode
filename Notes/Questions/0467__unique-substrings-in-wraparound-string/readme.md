@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>We define the string <code>s</code> to be the infinite wraparound string of <code>&quot;abcdefghijklmnopqrstuvwxyz&quot;</code>, so <code>s</code> will look like this:</p>
 

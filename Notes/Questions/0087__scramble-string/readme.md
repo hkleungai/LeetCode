@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>We can scramble a string s to get a string t using the following algorithm:</p>
 

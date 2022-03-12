@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p><em>(This problem is an <strong>interactive problem</strong>.)</em></p>
 

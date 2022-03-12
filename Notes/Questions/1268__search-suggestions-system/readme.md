@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an array of strings <code>products</code> and a string <code>searchWord</code>.</p>
 

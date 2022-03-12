@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>In an infinite binary tree where every node has two children, the nodes are labelled in row order.</p>
 

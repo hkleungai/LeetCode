@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given two integer arrays <code>nums1</code> and <code>nums2</code>. You are tasked to implement a data structure that supports queries of two types:</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You have a <code>RecentCounter</code> class which counts the number of recent requests within a certain time frame.</p>
 

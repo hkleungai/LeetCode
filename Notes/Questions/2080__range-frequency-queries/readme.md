@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Design a data structure to find the <strong>frequency</strong> of a given value in a given subarray.</p>
 

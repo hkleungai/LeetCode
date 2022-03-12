@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Design an algorithm that collects daily price quotes for some stock and returns <strong>the span</strong> of that stock&#39;s price for the current day.</p>
 

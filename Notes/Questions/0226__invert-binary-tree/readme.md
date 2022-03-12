@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given the <code>root</code> of a binary tree, invert the tree, and return <em>its root</em>.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a string <code>s</code>, remove duplicate letters so that every letter appears once and only once. You must make sure your result is <strong>the smallest in lexicographical order</strong> among all possible results.</p>
 

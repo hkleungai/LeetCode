@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array, rotate the array to the right by <code>k</code> steps, where <code>k</code> is non-negative.</p>
 

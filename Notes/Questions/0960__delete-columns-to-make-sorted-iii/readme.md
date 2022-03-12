@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an array of <code>n</code> strings <code>strs</code>, all of the same length.</p>
 

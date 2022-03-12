@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>We have <code>n</code> chips, where the position of the <code>i<sup>th</sup></code> chip is <code>position[i]</code>.</p>
 

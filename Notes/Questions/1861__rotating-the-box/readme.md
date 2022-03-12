@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an <code>m x n</code> matrix of characters <code>box</code> representing a side-view of a box. Each cell of the box is one of the following:</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an integer array of size <code>n</code>, find all elements that appear more than <code>&lfloor; n/3 &rfloor;</code> times.</p>
 

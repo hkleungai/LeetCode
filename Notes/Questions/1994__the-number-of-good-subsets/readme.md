@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an integer array <code>nums</code>. We call a subset of <code>nums</code> <strong>good</strong> if its product can be represented as a product of one or more <strong>distinct prime</strong> numbers.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a list of strings of the <strong>same length</strong> <code>words</code> and a string <code>target</code>.</p>
 

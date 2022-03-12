@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given the <code>root</code> of a binary tree, each node in the tree has a distinct value.</p>
 

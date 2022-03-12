@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You want to build <code>n</code> new buildings in a city. The new buildings will be built in a line and are labeled from <code>1</code> to <code>n</code>.</p>
 

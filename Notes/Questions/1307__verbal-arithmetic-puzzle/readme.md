@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an equation, represented by <code>words</code> on the left side and the <code>result</code> on the right side.</p>
 

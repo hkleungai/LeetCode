@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>The school cafeteria offers circular and square sandwiches at lunch break, referred to by numbers <code>0</code> and <code>1</code> respectively. All students stand in a queue. Each student either prefers square or circular sandwiches.</p>
 

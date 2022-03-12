@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Design the <code>CombinationIterator</code> class:</p>
 

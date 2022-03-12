@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a rectangular cake of size <code>h x w</code> and two arrays of integers <code>horizontalCuts</code> and <code>verticalCuts</code> where:</p>
 

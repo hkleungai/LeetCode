@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of integers <code>arr</code>, return <code>true</code> if the number of occurrences of each value in the array is <strong>unique</strong>, or <code>false</code> otherwise.</p>
 

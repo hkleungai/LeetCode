@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an alphanumeric string <code>s</code>, return <em>the <strong>second largest</strong> numerical digit that appears in </em><code>s</code><em>, or </em><code>-1</code><em> if it does not exist</em>.</p>
 

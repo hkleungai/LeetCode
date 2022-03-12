@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a binary tree <code>root</code> and a&nbsp;linked list with&nbsp;<code>head</code>&nbsp;as the first node.&nbsp;</p>
 

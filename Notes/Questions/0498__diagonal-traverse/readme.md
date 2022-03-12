@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an <code>m x n</code> matrix <code>mat</code>, return <em>an array of all the elements of the array in a diagonal order</em>.</p>
 

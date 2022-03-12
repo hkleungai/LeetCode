@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There are <code>n</code> cars going to the same destination along a one-lane road. The destination is <code>target</code> miles away.</p>
 

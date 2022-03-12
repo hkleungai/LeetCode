@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a non-negative integer <code>c</code>, decide whether there&#39;re two integers <code>a</code> and <code>b</code> such that <code>a<sup>2</sup> + b<sup>2</sup> = c</code>.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given two strings <code>s1</code> and&nbsp;<code>s2</code>, return <em>the lowest <strong>ASCII</strong> sum of deleted characters to make two strings equal</em>.</p>
 

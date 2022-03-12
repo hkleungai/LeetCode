@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array&nbsp;<code>nums</code>&nbsp;of integers, we need to find the maximum possible sum of elements of the array such that it is divisible by three.</p>
 

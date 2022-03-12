@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given two strings <code>s</code> and <code>t</code>, return <em>the number of distinct subsequences of <code>s</code> which equals <code>t</code></em>.</p>
 

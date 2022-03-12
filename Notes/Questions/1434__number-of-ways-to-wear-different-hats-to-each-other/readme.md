@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There are <code>n</code> people and <code>40</code> types of hats labeled from <code>1</code> to <code>40</code>.</p>
 

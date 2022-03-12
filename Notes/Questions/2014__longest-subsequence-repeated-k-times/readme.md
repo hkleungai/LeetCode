@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a string <code>s</code> of length <code>n</code>, and an integer <code>k</code>. You are tasked to find the <strong>longest subsequence repeated</strong> <code>k</code> times in string <code>s</code>.</p>
 

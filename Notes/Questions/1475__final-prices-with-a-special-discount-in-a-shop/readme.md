@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given the array <code>prices</code> where <code>prices[i]</code> is the price of the <code>ith</code> item in a shop. There is a special discount for items in the shop, if you buy the <code>ith</code> item, then you will receive a discount equivalent to <code>prices[j]</code> where <code>j</code> is the <strong>minimum</strong>&nbsp;index such that <code>j &gt; i</code> and <code>prices[j] &lt;= prices[i]</code>, otherwise, you will not receive any discount at all.</p>
 

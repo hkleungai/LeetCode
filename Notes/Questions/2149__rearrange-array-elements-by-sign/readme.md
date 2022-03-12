@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> of <strong>even</strong> length consisting of an <strong>equal</strong> number of positive and negative integers.</p>
 

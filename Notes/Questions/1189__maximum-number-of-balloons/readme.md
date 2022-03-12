@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a string <code>text</code>, you want to use the characters of <code>text</code> to form as many instances of the word <strong>&quot;balloon&quot;</strong> as possible.</p>
 

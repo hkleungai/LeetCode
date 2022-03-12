@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an alphanumeric string <code>s</code>. (<strong>Alphanumeric string</strong> is a string consisting of lowercase English letters and digits).</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A certain bug&#39;s home is on the x-axis at position <code>x</code>. Help them get there from position <code>0</code>.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a series of video clips from a sporting event that lasted <code>time</code> seconds. These video clips can be overlapping with each other and have varying lengths.</p>
 

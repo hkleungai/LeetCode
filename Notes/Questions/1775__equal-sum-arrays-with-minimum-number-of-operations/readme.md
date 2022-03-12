@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given two arrays of integers <code>nums1</code> and <code><font face="monospace">nums2</font></code>, possibly of different lengths. The values in the arrays are between <code>1</code> and <code>6</code>, inclusive.</p>
 

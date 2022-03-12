@@ -32,6 +32,7 @@ export interface RawQuestionDetail {
   title_value: string;
   topics: DisplayValue[];
   similar_questions: string;
+  status: string | null;
 }
 
 // export interface PostProcessedQuestionDetail

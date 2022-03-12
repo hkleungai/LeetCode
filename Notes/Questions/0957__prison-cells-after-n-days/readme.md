@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There are <code>8</code> prison cells in a row and each cell is either occupied or vacant.</p>
 

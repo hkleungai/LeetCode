@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an array <code>target</code> that consists of <strong>distinct</strong> integers and another integer array <code>arr</code> that <strong>can</strong> have duplicates.</p>
 

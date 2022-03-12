@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an integer <code>n</code>, return <em>the number of prime numbers that are strictly less than</em> <code>n</code>.</p>
 

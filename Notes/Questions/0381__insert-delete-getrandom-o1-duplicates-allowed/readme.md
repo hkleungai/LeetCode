@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p><code>RandomizedCollection</code> is a data structure that contains a collection of numbers, possibly duplicates (i.e., a multiset). It should support inserting and removing specific elements and also removing a random element.</p>
 

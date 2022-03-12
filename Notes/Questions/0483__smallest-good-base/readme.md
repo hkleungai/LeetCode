@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an integer <code>n</code> represented as a string, return <em>the smallest <strong>good base</strong> of</em> <code>n</code>.</p>
 

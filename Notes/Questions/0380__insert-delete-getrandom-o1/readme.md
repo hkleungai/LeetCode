@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Implement the <code>RandomizedSet</code> class:</p>
 

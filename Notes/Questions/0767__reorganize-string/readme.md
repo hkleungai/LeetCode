@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a string <code>s</code>, rearrange the characters of <code>s</code> so that any two adjacent characters are not the same.</p>
 

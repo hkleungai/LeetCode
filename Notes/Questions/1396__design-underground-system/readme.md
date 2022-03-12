@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>An underground railway system is keeping track of customer travel times between different stations. They are using this data to calculate the average time it takes to travel from one station to another.</p>
 

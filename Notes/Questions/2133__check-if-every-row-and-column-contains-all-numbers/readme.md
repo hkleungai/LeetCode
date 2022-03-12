@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>An <code>n x n</code> matrix is <strong>valid</strong> if every row and every column contains <strong>all</strong> the integers from <code>1</code> to <code>n</code> (<strong>inclusive</strong>).</p>
 

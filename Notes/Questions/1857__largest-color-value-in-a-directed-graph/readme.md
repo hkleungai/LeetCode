@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There is a <strong>directed graph</strong> of <code>n</code> colored nodes and <code>m</code> edges. The nodes are numbered from <code>0</code> to <code>n - 1</code>.</p>
 

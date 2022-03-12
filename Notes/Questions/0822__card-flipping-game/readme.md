@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given <code>n</code> cards, with a positive integer printed on the front and back of each card (possibly different). You can flip any number of cards (possibly zero).</p>
 

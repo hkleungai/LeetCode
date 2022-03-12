@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array <code>arr</code> that represents a permutation of numbers from <code>1</code> to <code>n</code>.</p>
 

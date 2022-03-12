@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given two positive integers <code>left</code> and <code>right</code> with <code>left &lt;= right</code>. Calculate the <strong>product</strong> of all integers in the <strong>inclusive</strong> range <code>[left, right]</code>.</p>
 

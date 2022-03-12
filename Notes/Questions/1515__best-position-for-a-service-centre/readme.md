@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A delivery company wants to build a new service center in a new city. The company knows the positions of all the customers in this city on a 2D-Map and wants to build the new center in a position such that <strong>the sum of the euclidean distances to all customers is minimum</strong>.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given two <strong>0-indexed</strong> arrays <code>nums1</code> and <code>nums2</code> of length <code>n</code>, both of which are <strong>permutations</strong> of <code>[0, 1, ..., n - 1]</code>.</p>
 

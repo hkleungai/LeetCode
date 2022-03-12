@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are playing the following Nim Game with your friend:</p>
 

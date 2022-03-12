@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given two integer arrays <code>nums1</code> and <code>nums2</code>, return <em>an array of their intersection</em>. Each element in the result must be <strong>unique</strong> and you may return the result in <strong>any order</strong>.</p>
 

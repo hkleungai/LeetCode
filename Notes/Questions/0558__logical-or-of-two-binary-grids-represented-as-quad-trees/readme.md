@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A Binary Matrix is a matrix in which all the elements are either <strong>0</strong> or <strong>1</strong>.</p>
 

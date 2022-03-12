@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A <strong>super ugly number</strong> is a positive integer whose prime factors are in the array <code>primes</code>.</p>
 

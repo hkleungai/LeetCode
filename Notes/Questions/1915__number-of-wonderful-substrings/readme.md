@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A <strong>wonderful</strong> string is a string where <strong>at most one</strong> letter appears an <strong>odd</strong> number of times.</p>
 

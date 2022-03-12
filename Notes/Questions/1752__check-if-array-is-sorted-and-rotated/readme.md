@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array <code>nums</code>, return <code>true</code><em> if the array was originally sorted in non-decreasing order, then rotated <strong>some</strong> number of positions (including zero)</em>. Otherwise, return <code>false</code>.</p>
 

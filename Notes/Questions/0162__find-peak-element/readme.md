@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A peak element is an element that is strictly greater than its neighbors.</p>
 

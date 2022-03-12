@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A game on an <strong>undirected</strong> graph is played by two players, Mouse and Cat, who alternate turns.</p>
 

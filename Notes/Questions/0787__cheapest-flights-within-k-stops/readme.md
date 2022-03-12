@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There are <code>n</code> cities connected by some number of flights. You are given an array <code>flights</code> where <code>flights[i] = [from<sub>i</sub>, to<sub>i</sub>, price<sub>i</sub>]</code> indicates that there is a flight from city <code>from<sub>i</sub></code> to city <code>to<sub>i</sub></code> with cost <code>price<sub>i</sub></code>.</p>
 
@@ -6,7 +6,7 @@
 
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
-<img alt="" src="995.png" style="height: 360px; width: 492px;" />
+<img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/02/16/995.png" style="height: 360px; width: 492px;" />
 <pre>
 <strong>Input:</strong> n = 3, flights = [[0,1,100],[1,2,100],[0,2,500]], src = 0, dst = 2, k = 1
 <strong>Output:</strong> 200
@@ -15,7 +15,7 @@ The cheapest price from city <code>0</code> to city <code>2</code> with at most 
 </pre>
 
 <p><strong>Example 2:</strong></p>
-<img alt="" src="995.png" style="height: 360px; width: 492px;" />
+<img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/02/16/995.png" style="height: 360px; width: 492px;" />
 <pre>
 <strong>Input:</strong> n = 3, flights = [[0,1,100],[1,2,100],[0,2,500]], src = 0, dst = 2, k = 0
 <strong>Output:</strong> 500

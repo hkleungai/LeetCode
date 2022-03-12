@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given two string arrays <code>word1</code> and <code>word2</code>, return<em> </em><code>true</code><em> if the two arrays <strong>represent</strong> the same string, and </em><code>false</code><em> otherwise.</em></p>
 

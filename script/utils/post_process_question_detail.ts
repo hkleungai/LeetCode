@@ -1,18 +1,6 @@
-import path from 'path';
-
 import make_display_value_lists from './make_display_value_lists';
 import { DIFFICULTY, STATUS, PROBLEMS_URL, TAG_URL } from '../constants';
 import { DisplayValues, RawQuestionDetail } from '../types';
-// import { splice_array_chunks } from '../utils';
-
-const delimiter = (items: string[]) => {
-  if (items[0] === ' ') {
-    items.shift();
-  }
-  else {
-    items.unshift('-');
-  }
-};
 
 const post_process_question_detail = (
   {
@@ -20,12 +8,10 @@ const post_process_question_detail = (
     title_value,
     similar_questions: raw_similar_questions,
     topics: raw_topics,
-    id,
     is_premium,
     difficulty,
+    status: raw_status,
   }: RawQuestionDetail,
-  completed_ids_set: Set<RawQuestionDetail['id']>,
-  attempted_ids_set: Set<RawQuestionDetail['id']>,
   title_value_to_id: Record<string, string>,
   title_value_to_question_notes_path: Record<string, string>,
 ): Record<string, string> => {
@@ -56,13 +42,7 @@ const post_process_question_detail = (
   }
 
   // Average-level LeetCoders might have more todo questions than the other two.
-  const status = (
-    attempted_ids_set.has(id)
-      ? STATUS.ATTEMPTED
-      : completed_ids_set.has(id)
-        ? STATUS.COMPLETED
-        : STATUS.TODO
-  );
+  const status = `${raw_status}`;
 
   const title: DisplayValues = post_process_display_values(title_display, title_value);
 

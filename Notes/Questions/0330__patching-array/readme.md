@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a sorted integer array <code>nums</code> and an integer <code>n</code>, add/patch elements to the array such that any number in the range <code>[1, n]</code> inclusive can be formed by the sum of some elements in the array.</p>
 

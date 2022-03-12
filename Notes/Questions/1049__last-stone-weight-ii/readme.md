@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an array of integers <code>stones</code> where <code>stones[i]</code> is the weight of the <code>i<sup>th</sup></code> stone.</p>
 

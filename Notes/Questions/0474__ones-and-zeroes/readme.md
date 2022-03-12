@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an array of binary strings <code>strs</code> and two integers <code>m</code> and <code>n</code>.</p>
 

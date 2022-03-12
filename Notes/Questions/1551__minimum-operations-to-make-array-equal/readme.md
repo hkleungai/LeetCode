@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You have an array <code>arr</code> of length <code>n</code> where <code>arr[i] = (2 * i) + 1</code> for all valid values of <code>i</code> (i.e.,&nbsp;<code>0 &lt;= i &lt; n</code>).</p>
 

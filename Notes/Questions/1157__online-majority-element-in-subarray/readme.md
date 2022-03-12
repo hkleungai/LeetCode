@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Design a data structure that efficiently finds the <strong>majority element</strong> of a given subarray.</p>
 

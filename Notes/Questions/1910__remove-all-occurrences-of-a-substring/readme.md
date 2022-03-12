@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given two strings <code>s</code> and <code>part</code>, perform the following operation on <code>s</code> until <strong>all</strong> occurrences of the substring <code>part</code> are removed:</p>
 

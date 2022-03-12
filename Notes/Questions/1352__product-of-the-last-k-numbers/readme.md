@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Design an algorithm that accepts a stream of integers and retrieves the product of the last <code>k</code> integers of the stream.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of integers <code>nums</code>, sort the array in ascending order.</p>
 

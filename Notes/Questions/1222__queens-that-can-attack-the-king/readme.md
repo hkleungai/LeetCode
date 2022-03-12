@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>On an <strong>8x8</strong> chessboard, there can be multiple Black Queens and one White King.</p>
 

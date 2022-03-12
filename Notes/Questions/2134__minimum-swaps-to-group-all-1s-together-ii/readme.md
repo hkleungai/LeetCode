@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A <strong>swap</strong> is defined as taking two <strong>distinct</strong> positions in an array and swapping the values in them.</p>
 

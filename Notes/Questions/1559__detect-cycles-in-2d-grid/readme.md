@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a 2D array of characters <code>grid</code> of size <code>m x n</code>, you need to find if there exists any cycle consisting of the <strong>same value</strong> in <code>grid</code>.</p>
 

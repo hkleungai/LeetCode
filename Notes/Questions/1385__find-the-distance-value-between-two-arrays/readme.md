@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given two integer arrays <code>arr1</code> and <code>arr2</code>, and the integer <code>d</code>, <em>return the distance value between the two arrays</em>.</p>
 

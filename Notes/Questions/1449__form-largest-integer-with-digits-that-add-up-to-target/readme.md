@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of integers <code>cost</code> and an integer <code>target</code>, return <em>the <strong>maximum</strong> integer you can paint under the following rules</em>:</p>
 

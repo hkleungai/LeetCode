@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an array <code>pairs</code>, where <code>pairs[i] = [x<sub>i</sub>, y<sub>i</sub>]</code>, and:</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>The <strong>next greater element</strong> of some element <code>x</code> in an array is the <strong>first greater</strong> element that is <strong>to the right</strong> of <code>x</code> in the same array.</p>
 

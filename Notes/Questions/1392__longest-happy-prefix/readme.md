@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A string is called a <strong>happy prefix</strong> if is a <strong>non-empty</strong> prefix which is also a suffix (excluding itself).</p>
 

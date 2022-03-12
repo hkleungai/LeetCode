@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Hercy wants to save money for his first car. He puts money in the Leetcode&nbsp;bank <strong>every day</strong>.</p>
 

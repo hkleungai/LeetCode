@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an array of strings of the same length <code>words</code>.</p>
 

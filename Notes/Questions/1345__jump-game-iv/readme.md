@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of&nbsp;integers <code>arr</code>, you are initially positioned at the first index of the array.</p>
 

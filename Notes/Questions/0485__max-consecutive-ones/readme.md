@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a binary array <code>nums</code>, return <em>the maximum number of consecutive </em><code>1</code><em>&#39;s in the array</em>.</p>
 

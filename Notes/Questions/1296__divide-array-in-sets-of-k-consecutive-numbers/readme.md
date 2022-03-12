@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of integers <code>nums</code> and a positive integer <code>k</code>, check whether it is possible to divide this array into sets of <code>k</code> consecutive numbers.</p>
 

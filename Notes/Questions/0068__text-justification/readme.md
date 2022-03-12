@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of strings <code>words</code> and a width <code>maxWidth</code>, format the text such that each line has exactly <code>maxWidth</code> characters and is fully (left and right) justified.</p>
 

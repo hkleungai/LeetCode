@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There are three stones in different positions on the X-axis. You are given three integers <code>a</code>, <code>b</code>, and <code>c</code>, the positions of the stones.</p>
 

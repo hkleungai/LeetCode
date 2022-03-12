@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a 2D integer array <code>groups</code> of length <code>n</code>. You are also given an integer array <code>nums</code>.</p>
 

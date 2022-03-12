@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of strings <code>words</code> representing an English Dictionary, return <em>the longest word in</em> <code>words</code> <em>that can be built one character at a time by other words in</em> <code>words</code>.</p>
 

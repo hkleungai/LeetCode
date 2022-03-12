@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array <code>arr</code>&nbsp;of positive integers&nbsp;sorted in a <strong>strictly increasing order</strong>, and an integer <code><font face="monospace">k</font></code>.</p>
 

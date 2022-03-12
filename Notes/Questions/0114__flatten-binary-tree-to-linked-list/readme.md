@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given the <code>root</code> of a binary tree, flatten the tree into a &quot;linked list&quot;:</p>
 

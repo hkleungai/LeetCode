@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There are <code>n</code> couples sitting in <code>2n</code> seats arranged in a row and want to hold hands.</p>
 

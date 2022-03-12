@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a singly linked list, return a random node&#39;s value from the linked list. Each node must have the <strong>same probability</strong> of being chosen.</p>
 

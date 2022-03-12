@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given two integer arrays <code>nums1</code> and <code>nums2</code>, return <em>the maximum length of a subarray that appears in <strong>both</strong> arrays</em>.</p>
 

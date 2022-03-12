@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a <strong>non-empty</strong> array <code>nums</code> containing <strong>only positive integers</strong>, find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given two arrays of integers with equal lengths, return the maximum value of:</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There is a row of <code>m</code> houses in a small city, each house must be painted with one of the <code>n</code> colors (labeled from <code>1</code> to <code>n</code>), some houses that have been painted last summer should not be painted again.</p>
 

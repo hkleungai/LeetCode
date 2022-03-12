@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>On a 2D plane, we place <code>n</code> stones at some integer coordinate points. Each coordinate point may have at most one stone.</p>
 

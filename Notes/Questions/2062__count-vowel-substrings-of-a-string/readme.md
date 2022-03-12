@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A <strong>substring</strong> is a contiguous (non-empty) sequence of characters within a string.</p>
 

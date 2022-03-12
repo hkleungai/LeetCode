@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A <strong>happy string</strong> is a string that:</p>
 

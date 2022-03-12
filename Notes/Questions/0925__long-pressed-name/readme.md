@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Your friend is typing his <code>name</code> into a keyboard. Sometimes, when typing a character <code>c</code>, the key might get <em>long pressed</em>, and the character will be typed 1 or more times.</p>
 

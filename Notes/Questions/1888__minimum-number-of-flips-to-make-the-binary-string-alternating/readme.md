@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a binary string <code>s</code>. You are allowed to perform two types of operations on the string in any sequence:</p>
 

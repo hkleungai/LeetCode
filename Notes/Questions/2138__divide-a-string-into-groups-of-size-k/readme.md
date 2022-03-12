@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A string <code>s</code> can be partitioned into groups of size <code>k</code> using the following procedure:</p>
 

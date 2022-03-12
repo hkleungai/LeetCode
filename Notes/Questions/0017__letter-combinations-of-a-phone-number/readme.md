@@ -1,10 +1,10 @@
-# Question Description
+# Problem Statement
 
 <p>Given a string containing digits from <code>2-9</code> inclusive, return all possible letter combinations that the number could represent. Return the answer in <strong>any order</strong>.</p>
 
 <p>A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.</p>
 
-<p><img src="200px-Telephone-keypad2.svg.png" style="width: 200px; height: 162px;" /></p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Telephone-keypad2.svg/200px-Telephone-keypad2.svg.png" style="width: 200px; height: 162px;" /></p>
 
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>

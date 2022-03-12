@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are playing a game with integers. You start with the integer <code>1</code> and you want to reach the integer <code>target</code>.</p>
 

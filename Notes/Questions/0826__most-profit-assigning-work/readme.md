@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You have <code>n</code> jobs and <code>m</code> workers. You are given three arrays: <code>difficulty</code>, <code>profit</code>, and <code>worker</code> where:</p>
 

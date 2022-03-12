@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>The <strong>beauty</strong> of a string is the difference in frequencies between the most frequent and least frequent characters.</p>
 

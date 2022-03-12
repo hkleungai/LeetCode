@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given two integer arrays <code>nums1</code> and <code>nums2</code> of length <code>n</code>.</p>
 

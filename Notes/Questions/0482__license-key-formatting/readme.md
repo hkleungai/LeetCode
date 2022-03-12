@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a license key represented as a string <code>s</code> that consists of only alphanumeric characters and dashes. The string is separated into <code>n + 1</code> groups by <code>n</code> dashes. You are also given an integer <code>k</code>.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Write a program to count the number of days between two dates.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a <strong>non-empty</strong>&nbsp;array of integers <code>nums</code>, every element appears <em>twice</em> except for one. Find that single one.</p>
 

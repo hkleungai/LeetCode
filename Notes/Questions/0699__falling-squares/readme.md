@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There are several squares being dropped onto the X-axis of a 2D plane.</p>
 

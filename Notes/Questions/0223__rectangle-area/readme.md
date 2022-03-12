@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given the coordinates of two <strong>rectilinear</strong> rectangles in a 2D plane, return <em>the total area covered by the two rectangles</em>.</p>
 

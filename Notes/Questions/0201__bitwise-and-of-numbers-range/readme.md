@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given two integers <code>left</code> and <code>right</code> that represent the range <code>[left, right]</code>, return <em>the bitwise AND of all numbers in this range, inclusive</em>.</p>
 

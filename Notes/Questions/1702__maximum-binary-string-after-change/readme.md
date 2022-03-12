@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a binary string <code>binary</code> consisting of only <code>0</code>&#39;s or <code>1</code>&#39;s. You can apply each of the following operations any number of times:</p>
 

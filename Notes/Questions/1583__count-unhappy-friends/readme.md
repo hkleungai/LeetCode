@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a list of&nbsp;<code>preferences</code>&nbsp;for&nbsp;<code>n</code>&nbsp;friends, where <code>n</code> is always <strong>even</strong>.</p>
 

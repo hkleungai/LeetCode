@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A car travels from a starting position to a destination which is <code>target</code> miles east of the starting position.</p>
 

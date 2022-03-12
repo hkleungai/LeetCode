@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>The <strong>distance of a pair</strong> of integers <code>a</code> and <code>b</code> is defined as the absolute difference between <code>a</code> and <code>b</code>.</p>
 

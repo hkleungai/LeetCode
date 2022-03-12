@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a string <code>s</code>, reverse only all the vowels in the string and return it.</p>
 

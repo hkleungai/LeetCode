@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a string <code>word</code> that consists of digits and lowercase English letters.</p>
 

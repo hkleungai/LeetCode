@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given the <code>root</code> of a binary search tree (BST) and an integer <code>val</code>.</p>
 

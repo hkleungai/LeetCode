@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given two strings <code>s</code> and <code>t</code>.</p>
 

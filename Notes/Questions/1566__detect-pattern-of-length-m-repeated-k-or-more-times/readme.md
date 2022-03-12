@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of positive integers <code>arr</code>, find a pattern of length <code>m</code> that is repeated <code>k</code> or more times.</p>
 

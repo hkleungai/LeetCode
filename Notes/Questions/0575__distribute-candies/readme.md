@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Alice has <code>n</code> candies, where the <code>i<sup>th</sup></code> candy is of type <code>candyType[i]</code>. Alice noticed that she started to gain weight, so she visited a doctor.</p>
 

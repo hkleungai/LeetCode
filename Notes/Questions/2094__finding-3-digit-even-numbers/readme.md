@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an integer array <code>digits</code>, where each element is a digit. The array may contain duplicates.</p>
 

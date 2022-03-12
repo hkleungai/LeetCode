@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A sequence of numbers is called an <strong>arithmetic progression</strong> if the difference between any two consecutive elements is the same.</p>
 

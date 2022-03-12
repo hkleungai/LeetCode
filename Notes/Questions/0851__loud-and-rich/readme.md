@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There is a group of <code>n</code> people labeled from <code>0</code> to <code>n - 1</code> where each person has a different amount of money and a different level of quietness.</p>
 

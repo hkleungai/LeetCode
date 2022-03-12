@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array <code>arr</code> of integers, check if there exists two integers <code>N</code> and <code>M</code> such that <code>N</code> is the double of <code>M</code> ( i.e. <code>N = 2 * M</code>).</p>
 

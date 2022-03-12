@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 Given an integer array <code>arr</code>, return <code>true</code>&nbsp;if there are three consecutive odd numbers in the array. Otherwise, return&nbsp;<code>false</code>.
 <p>&nbsp;</p>

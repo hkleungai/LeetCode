@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Find all valid combinations of <code>k</code> numbers that sum up to <code>n</code> such that the following conditions are true:</p>
 

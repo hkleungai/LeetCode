@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Design a data structure to store the strings&#39; count with the ability to return the strings with minimum and maximum counts.</p>
 

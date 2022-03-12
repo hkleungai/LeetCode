@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of positive integers&nbsp;<code>arr</code>, calculate the sum of all possible odd-length subarrays.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a square <code>board</code>&nbsp;of characters. You can move on the board starting at the bottom right square marked with the character&nbsp;<code>&#39;S&#39;</code>.</p>
 

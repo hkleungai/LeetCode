@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an <code>m x n</code> binary matrix <code>mat</code>, return <em>the number of special positions in </em><code>mat</code><em>.</em></p>
 

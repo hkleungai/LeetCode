@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p><img alt="" src="cinema_seats_1.png" style="width: 400px; height: 149px;" /></p>
 

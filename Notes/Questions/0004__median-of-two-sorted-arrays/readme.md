@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given two sorted arrays <code>nums1</code> and <code>nums2</code> of size <code>m</code> and <code>n</code> respectively, return <strong>the median</strong> of the two sorted arrays.</p>
 

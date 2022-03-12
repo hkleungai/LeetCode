@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an integer array of unique positive integers <code>nums</code>. Consider the following graph:</p>
 

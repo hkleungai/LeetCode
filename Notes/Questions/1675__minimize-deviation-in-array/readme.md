@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an array <code>nums</code> of <code>n</code> positive integers.</p>
 

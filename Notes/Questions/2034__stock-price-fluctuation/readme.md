@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a stream of <strong>records</strong> about a particular stock. Each record contains a <strong>timestamp</strong> and the corresponding <strong>price</strong> of the stock at that timestamp.</p>
 

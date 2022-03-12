@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a text file <code>file.txt</code>, transpose its content.</p>
 

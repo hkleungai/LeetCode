@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given <strong>two identical</strong> eggs and you have access to a building with <code>n</code> floors labeled from <code>1</code> to <code>n</code>.</p>
 

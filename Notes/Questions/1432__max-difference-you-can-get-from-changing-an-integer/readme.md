@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an integer <code>num</code>. You will apply the following steps exactly <strong>two</strong> times:</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a string <code>text</code>. You should split it to k substrings <code>(subtext<sub>1</sub>, subtext<sub>2</sub>, ..., subtext<sub>k</sub>)</code> such that:</p>
 

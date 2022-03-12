@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p><strong>No-Zero integer</strong> is a positive integer that <strong>does not contain any <code>0</code></strong> in its decimal representation.</p>
 

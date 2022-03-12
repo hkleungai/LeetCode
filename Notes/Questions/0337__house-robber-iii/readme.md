@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>The thief has found himself a new place for his thievery again. There is only one entrance to this area, called <code>root</code>.</p>
 

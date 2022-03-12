@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given the heads of two sorted linked lists <code>list1</code> and <code>list2</code>.</p>
 

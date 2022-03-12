@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There are <code>n</code> dominoes in a line, and we place each domino vertically upright. In the beginning, we simultaneously push some of the dominoes either to the left or to the right.</p>
 
@@ -28,7 +28,7 @@
 </pre>
 
 <p><strong>Example 2:</strong></p>
-<img alt="" src="domino.png" style="height: 196px; width: 512px;" />
+<img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/05/18/domino.png" style="height: 196px; width: 512px;" />
 <pre>
 <strong>Input:</strong> dominoes = &quot;.L.R...LR..L..&quot;
 <strong>Output:</strong> &quot;LL.RR.LLRRLL..&quot;

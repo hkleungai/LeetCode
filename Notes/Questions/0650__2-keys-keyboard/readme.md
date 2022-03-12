@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There is only one character <code>&#39;A&#39;</code> on the screen of a notepad. You can perform two operations on this notepad for each step:</p>
 

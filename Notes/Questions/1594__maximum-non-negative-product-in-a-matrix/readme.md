@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a <code>m x n</code> matrix <code>grid</code>. Initially, you are located at the top-left corner <code>(0, 0)</code>, and in each step, you can only <strong>move right or down</strong> in the matrix.</p>
 

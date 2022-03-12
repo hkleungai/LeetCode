@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Let <code>f(x)</code> be the number of zeroes at the end of <code>x!</code>. Recall that <code>x! = 1 * 2 * 3 * ... * x</code> and by convention, <code>0! = 1</code>.</p>
 

@@ -5,9 +5,9 @@ export enum DIFFICULTY {
 }
 
 export enum STATUS {
-  ATTEMPTED = 'TRIED',
-  COMPLETED = 'AC',
-  TODO = 'NOT_STARTED',
+  ATTEMPTED = 'notac',
+  COMPLETED = 'ac',
+  TODO = 'null',
 }
 
 export enum QUERY {
@@ -46,99 +46,11 @@ export enum QUERY {
           }
           similar_questions: similarQuestions
           content
+          status
         }
       }
     }
   `,
-  ID = `#graphql
-    query problemsetQuestionList(
-      $limit: Int,
-      $filters: QuestionListFilterInput,
-    ) {
-      questionList(
-        limit: $limit
-        filters: $filters
-        categorySlug: ""
-        skip: 0
-      ) {
-        data {
-          id: questionFrontendId
-        }
-      }
-    }
-  `,
-  DESCRIPTION = `#graphql
-    query questionData($titleSlug: String!) {
-      question(titleSlug: $titleSlug) {
-        questionId
-        questionFrontendId
-        boundTopicId
-        title
-        titleSlug
-        content
-        translatedTitle
-        translatedContent
-        isPaidOnly
-        difficulty
-        likes
-        dislikes
-        isLiked
-        similarQuestions
-        exampleTestcases
-        categoryTitle
-        contributors {
-          username
-          profileUrl
-          avatarUrl
-          __typename
-        }
-        topicTags {
-          name
-          slug
-          translatedName
-          __typename
-        }
-        companyTagStats
-        codeSnippets {
-          lang
-          langSlug
-          code
-          __typename
-        }
-        stats
-        hints
-        solution {
-          id
-          canSeeDetail
-          paidOnly
-          hasVideoSolution
-          paidOnlyVideo
-          __typename
-        }
-        status
-        sampleTestCase
-        metaData
-        judgerAvailable
-        judgeType
-        mysqlSchemas
-        enableRunCode
-        enableTestMode
-        enableDebugger
-        envInfo
-        libraryUrl
-        adminUrl
-        challengeQuestion {
-          id
-          date
-          incompleteChallengeCount
-          streakCount
-          type
-          __typename
-        }
-        __typename
-      }
-    }
-  `
 }
 
 // FIXME: Switch to URL enum after the issue in https://github.com/microsoft/TypeScript/issues/40793 is addressed.

@@ -1,8 +1,8 @@
-# Question Description
+# Problem Statement
 
 <p>Consider all the leaves of a binary tree, from&nbsp;left to right order, the values of those&nbsp;leaves form a <strong>leaf value sequence</strong><em>.</em></p>
 
-<p><img alt="" src="tree.png" style="width: 400px; height: 336px;" /></p>
+<p><img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/16/tree.png" style="width: 400px; height: 336px;" /></p>
 
 <p>For example, in the given tree above, the leaf value sequence is <code>(6, 7, 4, 9, 8)</code>.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a <b>0-index</b><strong>ed</strong> string <code>street</code>. Each character in <code>street</code> is either <code>&#39;H&#39;</code> representing a house or <code>&#39;.&#39;</code> representing an empty space.</p>
 

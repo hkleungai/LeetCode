@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A string is a <strong>valid parentheses string</strong> (denoted <strong>VPS</strong>) if it meets one of the following:</p>
 

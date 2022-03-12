@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of integers&nbsp;<code>arr</code>, replace each element with its rank.</p>
 

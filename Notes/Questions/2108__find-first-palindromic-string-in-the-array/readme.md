@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of strings <code>words</code>, return <em>the first <strong>palindromic</strong> string in the array</em>. If there is no such string, return <em>an <strong>empty string</strong> </em><code>&quot;&quot;</code>.</p>
 

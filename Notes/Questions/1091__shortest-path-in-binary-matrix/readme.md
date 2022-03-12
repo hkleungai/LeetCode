@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an <code>n x n</code> binary matrix <code>grid</code>, return <em>the length of the shortest <strong>clear path</strong> in the matrix</em>. If there is no clear path, return <code>-1</code>.</p>
 

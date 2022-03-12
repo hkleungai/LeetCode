@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given two strings, <code>word1</code> and <code>word2</code>. You want to construct a string in the following manner:</p>
 

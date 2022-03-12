@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Write a function that reverses a string. The input string is given as an array of characters <code>s</code>.</p>
 

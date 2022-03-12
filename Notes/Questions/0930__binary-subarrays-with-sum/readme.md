@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a binary array <code>nums</code> and an integer <code>goal</code>, return <em>the number of non-empty <strong>subarrays</strong> with a sum</em> <code>goal</code>.</p>
 

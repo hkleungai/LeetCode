@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an array of strings <code>words</code> and a string <code>chars</code>.</p>
 

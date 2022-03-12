@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a binary search tree (BST), find the lowest common ancestor (LCA) of two given nodes in the BST.</p>
 

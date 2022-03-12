@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A string is considered <strong>beautiful</strong> if it satisfies the following conditions:</p>
 

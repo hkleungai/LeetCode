@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A <strong>critical point</strong> in a linked list is defined as <strong>either</strong> a <strong>local maxima</strong> or a <strong>local minima</strong>.</p>
 

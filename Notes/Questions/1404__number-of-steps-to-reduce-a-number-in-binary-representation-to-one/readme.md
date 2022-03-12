@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given the binary representation of an integer as a string <code>s</code>, return <em>the number of steps to reduce it to </em><code>1</code><em> under the following rules</em>:</p>
 

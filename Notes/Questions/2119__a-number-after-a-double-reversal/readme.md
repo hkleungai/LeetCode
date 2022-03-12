@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p><strong>Reversing</strong> an integer means to reverse all its digits.</p>
 

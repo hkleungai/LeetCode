@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A <strong>valid encoding</strong> of an array of <code>words</code> is any reference string <code>s</code> and array of indices <code>indices</code> such that:</p>
 

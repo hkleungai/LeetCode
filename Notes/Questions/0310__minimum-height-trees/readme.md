@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A tree is an undirected graph in which any two vertices are connected by&nbsp;<i>exactly</i>&nbsp;one path. In other words, any connected graph without simple cycles is a tree.</p>
 

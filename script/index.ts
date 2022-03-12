@@ -2,7 +2,6 @@ import dotenv from 'dotenv';
 import markdownTable from 'markdown-table'
 import path from 'path';
 
-import { STATUS } from './constants';
 import Requests from './requests';
 import safe_fs from './safe_fs';
 import {
@@ -21,8 +20,6 @@ const main = async () => {
   await execute_callback(write_table_files, 'Table Readme Edit', 1);
 }
 
-let attempted_ids: Awaited<ReturnType<Requests['get_question_ids_by_status']>>;
-let completed_ids: Awaited<ReturnType<Requests['get_question_ids_by_status']>>;
 let raw_question_details: Awaited<ReturnType<Requests['get_question_details']>>;
 let question_count: Awaited<ReturnType<Requests['get_question_count']>>;
 const request_for_question_details = async () => {
@@ -40,32 +37,20 @@ const request_for_question_details = async () => {
   if (!raw_question_details) {
     throw new Error('Questions cannot be retrieved');
   }
-
-  completed_ids = await requests.get_question_ids_by_status(question_count, STATUS.COMPLETED);
-  if (!completed_ids) {
-    throw new Error('Ids for completed questions cannot be retrieved');
-  }
-
-  attempted_ids = await requests.get_question_ids_by_status(question_count, STATUS.ATTEMPTED);
-  if (!attempted_ids) {
-    new Error('Ids for attempted questions cannot be retrieved');
-  }
 };
 
 const title_value_to_question_notes_path: Record<string, string> = {};
 const build_question_folders = async () => {
-  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-  raw_question_details = raw_question_details!;
-
   const question_parent_path = '../Notes/Questions';
   const readme_path = './readme.md';
-  const readme_files_promise = raw_question_details.map(async ({ id, title_value, content }) => {
+  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+  const readme_files_promise = raw_question_details!.map(async ({ id, title_value, content }) => {
     // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
     const question_path = left_pad_digits(+id, question_count!) + '__' + title_value;
     title_value_to_question_notes_path[title_value] = question_path;
     const absolute_question_path = path.resolve(__dirname, question_parent_path, question_path);
     const absolute_readme_path = path.resolve(absolute_question_path, readme_path);
-    let readme_content = '# Question Description\n\n';
+    let readme_content = '# Problem Statement\n\n';
     readme_content += (
       content
         ? await post_process_question_content(absolute_question_path, content)
@@ -81,35 +66,16 @@ const build_question_folders = async () => {
 
 let post_processed_question_details: Record<string, string>[];
 const process_raw_questions = () => {
-  // Suppose null-checking is done in previous steps already
-  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-  completed_ids = completed_ids!;
-  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-  attempted_ids = attempted_ids!;
-  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-  raw_question_details = raw_question_details!;
-  const completed_ids_set = new Set(completed_ids.map(({ id }) => id));
-  const attempted_ids_set = new Set(attempted_ids.map(({ id }) => id));
   const title_value_to_id = Object.fromEntries(
-    raw_question_details.map(q => [q.title_value, q.id])
+    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+    raw_question_details!.map(q => [q.title_value, q.id])
   )
-  // const title_value_to_question_folder = new Set(
-  //   raw_question_details
-  //     .map(q => q.title_value)
-  //     .filter(t => fs.existsSync(path.resolve(__dirname, `../Notes/Questions/${t}`)))
-  // )
-  // const title_value_to_topic_folder = new Set(
-  //   raw_question_details
-  //     .map(q => q.title_value)
-  //     .filter(t => fs.existsSync(path.resolve(__dirname, `../Notes/Topics/${t}`)))
-  // )
 
-  post_processed_question_details = raw_question_details.map(
+  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+  post_processed_question_details = raw_question_details!.map(
     raw_detail => (
       post_process_question_detail(
         raw_detail,
-        completed_ids_set,
-        attempted_ids_set,
         title_value_to_id,
         title_value_to_question_notes_path,
       )

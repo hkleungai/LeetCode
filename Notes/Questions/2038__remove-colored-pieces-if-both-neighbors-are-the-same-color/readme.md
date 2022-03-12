@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There are <code>n</code> pieces arranged in a line, and each piece is colored either by <code>&#39;A&#39;</code> or by <code>&#39;B&#39;</code>. You are given a string <code>colors</code> of length <code>n</code> where <code>colors[i]</code> is the color of the <code>i<sup>th</sup></code> piece.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a wooden stick of length <code>n</code> units. The stick is labelled from <code>0</code> to <code>n</code>. For example, a stick of length <strong>6</strong> is labelled as follows:</p>
 <img alt="" src="statement.jpg" style="width: 521px; height: 111px;" />

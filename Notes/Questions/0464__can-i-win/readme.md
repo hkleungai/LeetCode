@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>In the &quot;100 game&quot; two players take turns adding, to a running total, any integer from <code>1</code> to <code>10</code>. The player who first causes the running total to <strong>reach or exceed</strong> 100 wins.</p>
 

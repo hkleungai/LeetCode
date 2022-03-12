@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a data stream input of non-negative integers <code>a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub></code>, summarize the numbers seen so far as a list of disjoint intervals.</p>
 

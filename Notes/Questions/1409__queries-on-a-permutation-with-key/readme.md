@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given the array <code>queries</code> of positive integers between <code>1</code> and <code>m</code>, you have to process all <code>queries[i]</code> (from <code>i=0</code> to <code>i=queries.length-1</code>) according to the following rules:</p>
 

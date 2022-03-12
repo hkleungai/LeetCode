@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an integer array <code>nums</code> that is <strong>sorted in non-decreasing order</strong>.</p>
 

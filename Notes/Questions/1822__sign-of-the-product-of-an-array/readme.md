@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There is a function <code>signFunc(x)</code> that returns:</p>
 

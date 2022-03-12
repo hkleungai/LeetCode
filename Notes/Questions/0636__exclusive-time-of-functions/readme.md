@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>On a <strong>single-threaded</strong> CPU, we execute a program containing <code>n</code> functions. Each function has a unique ID between <code>0</code> and <code>n-1</code>.</p>
 

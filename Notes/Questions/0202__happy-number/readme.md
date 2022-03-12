@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Write an algorithm to determine if a number <code>n</code> is happy.</p>
 

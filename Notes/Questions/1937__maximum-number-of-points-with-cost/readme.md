@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an <code>m x n</code> integer matrix <code>points</code> (<strong>0-indexed</strong>). Starting with <code>0</code> points, you want to <strong>maximize</strong> the number of points you can get from the matrix.</p>
 

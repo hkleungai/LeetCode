@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given two integers <code>a</code> and <code>b</code>, return <strong>any</strong> string <code>s</code> such that:</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There are <code>numBottles</code> water bottles that are initially full of water. You can exchange <code>numExchange</code> empty water bottles from the market with one full water bottle.</p>
 

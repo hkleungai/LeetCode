@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>An <strong>image smoother</strong> is a filter of the size <code>3 x 3</code> that can be applied to each cell of an image by rounding down the average of the cell and the eight surrounding cells (i.e., the average of the nine cells in the blue smoother). If one or more of the surrounding cells of a cell is not present, we do not consider it in the average (i.e., the average of the four cells in the red smoother).</p>
 <img alt="" src="smoother-grid.jpg" style="width: 493px; height: 493px;" />

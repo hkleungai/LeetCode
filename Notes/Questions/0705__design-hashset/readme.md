@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Design a HashSet without using any built-in hash table libraries.</p>
 

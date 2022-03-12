@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You may recall that an array <code>arr</code> is a <strong>mountain array</strong> if and only if:</p>
 

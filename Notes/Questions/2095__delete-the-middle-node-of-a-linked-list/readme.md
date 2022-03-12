@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given the <code>head</code> of a linked list. <strong>Delete</strong> the <strong>middle node</strong>, and return <em>the</em> <code>head</code> <em>of the modified linked list</em>.</p>
 

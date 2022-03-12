@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A parentheses string is valid if and only if:</p>
 

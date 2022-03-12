@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a Tic-Tac-Toe board as a string array <code>board</code>, return <code>true</code> if and only if it is possible to reach this board position during the course of a valid tic-tac-toe game.</p>
 

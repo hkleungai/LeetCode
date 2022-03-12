@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an integer <code>n</code>, the number of teams in a tournament that has strange rules:</p>
 

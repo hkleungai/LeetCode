@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a <code>sentence</code> that consists of some words separated by a <strong>single space</strong>, and a <code>searchWord</code>, check if <code>searchWord</code> is a prefix of any word in <code>sentence</code>.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given string num representing a non-negative integer <code>num</code>, and an integer <code>k</code>, return <em>the smallest possible integer after removing</em> <code>k</code> <em>digits from</em> <code>num</code>.</p>
 

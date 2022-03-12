@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>The <strong>array-form</strong> of an integer <code>num</code> is an array representing its digits in left to right order.</p>
 

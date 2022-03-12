@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given two strings of the same length <code>s</code> and <code>t</code>. In one step you can choose <strong>any character</strong> of <code>t</code> and replace it with <strong>another character</strong>.</p>
 

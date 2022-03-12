@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given the <code>head</code> of a singly linked list, return <code>true</code> if it is a palindrome.</p>
 

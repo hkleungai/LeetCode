@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array <code>nums</code> of size <code>n</code>, return <em>the majority element</em>.</p>
 

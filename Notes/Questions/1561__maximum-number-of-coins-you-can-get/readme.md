@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There are <code>3n</code> piles of coins of varying size, you and your friends will take piles of coins as follows:</p>
 

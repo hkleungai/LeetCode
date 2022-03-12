@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an array of <code>words</code> where each word consists of lowercase English letters.</p>
 

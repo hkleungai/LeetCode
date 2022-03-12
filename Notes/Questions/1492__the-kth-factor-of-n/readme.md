@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given two positive integers <code>n</code> and <code>k</code>. A factor of an integer <code>n</code> is defined as an integer <code>i</code> where <code>n % i == 0</code>.</p>
 

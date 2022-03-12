@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Design a stack which supports the following operations.</p>
 

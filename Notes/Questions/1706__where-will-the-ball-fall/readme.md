@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You have a 2-D <code>grid</code> of size <code>m x n</code> representing a box, and you have <code>n</code> balls. The box is open on the top and bottom sides.</p>
 

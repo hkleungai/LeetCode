@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of characters <code>chars</code>, compress it using the following algorithm:</p>
 

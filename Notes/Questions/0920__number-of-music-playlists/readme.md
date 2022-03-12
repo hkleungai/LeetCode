@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Your music player contains <code>n</code> different songs. You want to listen to <code>goal</code> songs (not necessarily different) during your trip. To avoid boredom, you will create a playlist so that:</p>
 

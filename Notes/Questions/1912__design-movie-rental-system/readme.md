@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You have a movie renting company consisting of <code>n</code> shops. You want to implement a renting system that supports searching for, booking, and returning movies. The system should also support generating a report of the currently rented movies.</p>
 

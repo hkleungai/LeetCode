@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>The Tribonacci sequence T<sub>n</sub> is defined as follows:&nbsp;</p>
 

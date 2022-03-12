@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are implementing a program to use as your calendar. We can add a new event if adding the event will not cause a <strong>triple booking</strong>.</p>
 

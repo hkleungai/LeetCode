@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a string <code>s</code>, return <em>the longest palindromic substring</em> in <code>s</code>.</p>
 

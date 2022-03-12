@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an encoded string, return its decoded string.</p>
 

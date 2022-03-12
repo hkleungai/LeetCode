@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A <strong>valid number</strong> can be split up into these components (in order):</p>
 

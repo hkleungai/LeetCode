@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are playing the <strong><a href="https://en.wikipedia.org/wiki/Bulls_and_Cows" target="_blank">Bulls and Cows</a></strong> game with your friend.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an integer <code>n</code>, you must transform it into <code>0</code> using the following operations any number of times:</p>
 

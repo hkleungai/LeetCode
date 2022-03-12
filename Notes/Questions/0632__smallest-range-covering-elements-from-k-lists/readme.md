@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You have <code>k</code> lists of sorted integers in <strong>non-decreasing&nbsp;order</strong>. Find the <b>smallest</b> range that includes at least one number from each of the <code>k</code> lists.</p>
 

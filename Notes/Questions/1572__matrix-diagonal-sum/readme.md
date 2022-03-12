@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a&nbsp;square&nbsp;matrix&nbsp;<code>mat</code>, return the sum of the matrix diagonals.</p>
 

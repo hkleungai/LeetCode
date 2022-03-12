@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an integer array nums, return <em>the number of <strong>AND triples</strong></em>.</p>
 

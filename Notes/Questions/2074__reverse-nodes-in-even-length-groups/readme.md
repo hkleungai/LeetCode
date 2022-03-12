@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given the <code>head</code> of a linked list.</p>
 

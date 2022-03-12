@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an <code>m x n</code> binary matrix <code>mat</code>, return <em>the distance of the nearest </em><code>0</code><em> for each cell</em>.</p>
 

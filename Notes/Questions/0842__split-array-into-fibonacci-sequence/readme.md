@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a string of digits <code>num</code>, such as <code>&quot;123456579&quot;</code>. We can split it into a Fibonacci-like sequence <code>[123, 456, 579]</code>.</p>
 

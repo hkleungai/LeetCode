@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Let&#39;s call an array <code>arr</code> a <strong>mountain</strong>&nbsp;if the following properties hold:</p>
 

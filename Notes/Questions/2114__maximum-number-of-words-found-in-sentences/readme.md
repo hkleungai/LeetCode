@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A <strong>sentence</strong> is a list of <strong>words</strong> that are separated by a single space&nbsp;with no leading or trailing spaces.</p>
 

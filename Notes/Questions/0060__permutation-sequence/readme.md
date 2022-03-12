@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>The set <code>[1, 2, 3, ...,&nbsp;n]</code> contains a total of <code>n!</code> unique permutations.</p>
 

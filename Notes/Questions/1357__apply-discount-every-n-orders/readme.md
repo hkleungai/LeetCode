@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There is a supermarket that is frequented by many customers. The products sold at the supermarket are represented as two parallel integer arrays <code>products</code> and <code>prices</code>, where the <code>i<sup>th</sup></code> product has an ID of <code>products[i]</code> and a price of <code>prices[i]</code>.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>One way to serialize a binary tree is to use <strong>preorder traversal</strong>. When we encounter a non-null node, we record the node&#39;s value. If it is a null node, we record using a sentinel value such as <code>&#39;#&#39;</code>.</p>
 <img alt="" src="pre-tree.jpg" style="width: 362px; height: 293px;" />

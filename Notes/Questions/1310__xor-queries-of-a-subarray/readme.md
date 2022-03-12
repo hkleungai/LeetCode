@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an array <code>arr</code> of positive integers. You are also given the array <code>queries</code> where <code>queries[i] = [left<sub>i, </sub>right<sub>i</sub>]</code>.</p>
 

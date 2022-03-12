@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>The <strong>pair sum</strong> of a pair <code>(a,b)</code> is equal to <code>a + b</code>. The <strong>maximum pair sum</strong> is the largest <strong>pair sum</strong> in a list of pairs.</p>
 

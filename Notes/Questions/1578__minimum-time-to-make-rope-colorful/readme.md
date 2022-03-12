@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Alice has <code>n</code> balloons arranged on a rope. You are given a <strong>0-indexed</strong> string <code>colors</code> where <code>colors[i]</code> is the color of the <code>i<sup>th</sup></code> balloon.</p>
 

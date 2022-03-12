@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A positive integer is <em>magical</em> if it is divisible by either <code>a</code> or <code>b</code>.</p>
 

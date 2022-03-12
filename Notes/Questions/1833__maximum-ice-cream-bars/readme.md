@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>It is a sweltering summer day, and a boy wants to buy some ice cream bars.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of integers <code>arr</code> and an integer <code>k</code>.</p>
 

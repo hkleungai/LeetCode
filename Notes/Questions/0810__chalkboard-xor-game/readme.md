@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given an array of integers <code>nums</code> represents the numbers written on a chalkboard.</p>
 

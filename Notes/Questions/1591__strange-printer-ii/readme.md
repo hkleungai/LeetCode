@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There is a strange printer with the following two special requirements:</p>
 

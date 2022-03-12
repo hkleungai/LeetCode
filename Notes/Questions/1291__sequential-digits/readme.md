@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>An&nbsp;integer has <em>sequential digits</em> if and only if each digit in the number is one more than the previous digit.</p>
 

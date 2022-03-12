@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 Given an integer number <code>n</code>, return the difference between the product of its digits and the sum of its digits.
 <p>&nbsp;</p>

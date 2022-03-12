@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Suppose we have a class:</p>
 

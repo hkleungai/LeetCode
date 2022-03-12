@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There is a 2D <code>grid</code> of size <code>n x n</code> where each cell of this grid has a lamp that is initially <strong>turned off</strong>.</p>
 

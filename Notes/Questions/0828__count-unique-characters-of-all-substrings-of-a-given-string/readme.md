@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Let&#39;s define a function <code>countUniqueChars(s)</code> that returns the number of unique characters on <code>s</code>.</p>
 

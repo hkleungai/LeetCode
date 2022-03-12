@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A virus is spreading rapidly, and your task is to quarantine the infected area by installing walls.</p>
 

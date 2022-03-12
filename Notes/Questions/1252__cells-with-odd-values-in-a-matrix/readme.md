@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There is an <code>m x n</code> matrix that is initialized to all <code>0</code>&#39;s. There is also a 2D array <code>indices</code> where each <code>indices[i] = [r<sub>i</sub>, c<sub>i</sub>]</code> represents a <strong>0-indexed location</strong> to perform some increment operations on the matrix.</p>
 

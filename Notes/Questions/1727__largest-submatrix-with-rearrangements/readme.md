@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a binary matrix <code>matrix</code> of size <code>m x n</code>, and you are allowed to rearrange the <strong>columns</strong> of the <code>matrix</code> in any order.</p>
 

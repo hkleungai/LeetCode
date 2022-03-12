@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are the manager of a basketball team. For the upcoming tournament, you want to choose the team with the highest overall score. The score of the team is the <strong>sum</strong> of scores of all the players in the team.</p>
 

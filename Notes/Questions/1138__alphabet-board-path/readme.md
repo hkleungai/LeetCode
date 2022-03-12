@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>On an alphabet board, we start at position <code>(0, 0)</code>, corresponding to character&nbsp;<code>board[0][0]</code>.</p>
 

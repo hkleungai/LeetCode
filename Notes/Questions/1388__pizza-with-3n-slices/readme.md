@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There is a pizza with <code>3n</code> slices of varying size, you and your friends will take slices of pizza as follows:</p>
 

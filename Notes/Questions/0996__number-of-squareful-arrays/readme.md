@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>An array is <strong>squareful</strong> if the sum of every pair of adjacent elements is a <strong>perfect square</strong>.</p>
 

@@ -4,9 +4,9 @@ const execute_callback = async (
   level = 0
 ) => {
   const indent = ' '.repeat(level * 4);
-  console.log(indent + `Begin ${id}`);
+  console.time(indent + id);
   await callback();
-  console.log(indent + `End ${id}`);
+  console.timeEnd(indent + id);
 }
 
 export default execute_callback;

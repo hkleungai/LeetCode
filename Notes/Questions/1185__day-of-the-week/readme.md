@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a date, return the corresponding day of the week for that date.</p>
 

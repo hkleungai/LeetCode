@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an&nbsp;integer <code>n</code>, <em>return a string with <code>n</code>&nbsp;characters such that each character in such string occurs <strong>an odd number of times</strong></em>.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A <strong>k-mirror number</strong> is a <strong>positive</strong> integer <strong>without leading zeros</strong> that reads the same both forward and backward in base-10 <strong>as well as</strong> in base-k.</p>
 

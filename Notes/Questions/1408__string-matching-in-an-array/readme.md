@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of string <code>words</code>. Return all strings in <code>words</code> which is substring of another word in <strong>any</strong> order.&nbsp;</p>
 

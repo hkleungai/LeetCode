@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>The <strong>XOR total</strong> of an array is defined as the bitwise <code>XOR</code> of<strong> all its elements</strong>, or <code>0</code> if the array is<strong> empty</strong>.</p>
 

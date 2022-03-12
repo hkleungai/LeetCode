@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There is a broken calculator that has the integer <code>startValue</code> on its display initially. In one operation, you can:</p>
 

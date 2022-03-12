@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a string <code>s</code> containing lowercase letters and an integer <code>k</code>. You need to :</p>
 

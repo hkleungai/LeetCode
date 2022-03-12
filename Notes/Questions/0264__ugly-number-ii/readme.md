@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>An <strong>ugly number</strong> is a positive integer whose prime factors are limited to <code>2</code>, <code>3</code>, and <code>5</code>.</p>
 

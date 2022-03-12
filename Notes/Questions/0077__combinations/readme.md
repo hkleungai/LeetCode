@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given two integers <code>n</code> and <code>k</code>, return <em>all possible combinations of</em> <code>k</code> <em>numbers out of the range</em> <code>[1, n]</code>.</p>
 

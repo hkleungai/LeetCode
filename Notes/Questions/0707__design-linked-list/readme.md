@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Design your implementation of the linked list. You can choose to use a singly or doubly linked list.<br />
 A node in a singly linked list should have two attributes: <code>val</code> and <code>next</code>. <code>val</code> is the value of the current node, and <code>next</code> is a pointer/reference to the next node.<br />

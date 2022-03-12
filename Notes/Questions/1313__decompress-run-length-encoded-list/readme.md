@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>We are given a list <code>nums</code> of integers representing a list compressed with run-length encoding.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of positive integers <code>nums</code>, return the <em>maximum possible sum of an <strong>ascending</strong> subarray in </em><code>nums</code>.</p>
 

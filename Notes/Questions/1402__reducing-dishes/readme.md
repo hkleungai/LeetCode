@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A chef has collected data on the <code>satisfaction</code> level of his <code>n</code> dishes. Chef can cook any dish in 1 unit of time.</p>
 

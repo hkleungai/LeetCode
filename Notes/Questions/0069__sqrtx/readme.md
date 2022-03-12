@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a non-negative integer <code>x</code>,&nbsp;compute and return <em>the square root of</em> <code>x</code>.</p>
 

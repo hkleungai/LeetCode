@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A generic microwave supports cooking times for:</p>
 

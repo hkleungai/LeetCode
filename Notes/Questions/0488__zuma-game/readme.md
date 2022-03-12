@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are playing a variation of the game Zuma.</p>
 

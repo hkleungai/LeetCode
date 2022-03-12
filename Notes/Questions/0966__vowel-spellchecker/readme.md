@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a <code>wordlist</code>, we want to implement a spellchecker that converts a query word into a correct word.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a sentence&nbsp;<code>text</code> (A&nbsp;<em>sentence</em>&nbsp;is a string of space-separated words) in the following format:</p>
 

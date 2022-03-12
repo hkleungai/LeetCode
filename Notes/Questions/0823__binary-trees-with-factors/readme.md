@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of unique integers, <code>arr</code>, where each integer <code>arr[i]</code> is strictly greater than <code>1</code>.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given three integers <code>n</code>, <code>m</code> and <code>k</code>. Consider the following algorithm to find the maximum element of an array of positive integers:</p>
 <img alt="" src="e.png" style="width: 424px; height: 372px;" />

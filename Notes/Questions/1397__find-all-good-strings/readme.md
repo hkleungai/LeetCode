@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given the strings <code>s1</code> and <code>s2</code> of size <code>n</code> and the string <code>evil</code>, return <em>the number of <strong>good</strong> strings</em>.</p>
 

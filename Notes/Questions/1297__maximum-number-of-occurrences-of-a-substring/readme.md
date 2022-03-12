@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a string <code>s</code>, return the maximum number of ocurrences of <strong>any</strong> substring under the following rules:</p>
 

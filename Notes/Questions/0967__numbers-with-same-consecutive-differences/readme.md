@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Return all <strong>non-negative</strong> integers of length <code>n</code> such that the absolute difference between every two consecutive digits is <code>k</code>.</p>
 

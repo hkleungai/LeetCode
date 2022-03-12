@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There is a programming language with only <strong>four</strong> operations and <strong>one</strong> variable <code>X</code>:</p>
 

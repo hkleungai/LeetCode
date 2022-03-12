@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Convert a non-negative integer <code>num</code> to its English words representation.</p>
 

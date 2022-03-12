@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a binary array <code>nums</code>, you should delete one element from it.</p>
 

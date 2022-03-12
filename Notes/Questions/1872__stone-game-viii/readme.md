@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Alice and Bob take turns playing a game, with <strong>Alice starting first</strong>.</p>
 

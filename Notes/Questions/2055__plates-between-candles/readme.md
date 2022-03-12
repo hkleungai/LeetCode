@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There is a long table with a line of plates and candles arranged on top of it. You are given a <strong>0-indexed</strong> string <code>s</code> consisting of characters <code>&#39;*&#39;</code> and <code>&#39;|&#39;</code> only, where a <code>&#39;*&#39;</code> represents a <strong>plate</strong> and a <code>&#39;|&#39;</code> represents a <strong>candle</strong>.</p>
 

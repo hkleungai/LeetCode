@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There are two types of persons:</p>
 

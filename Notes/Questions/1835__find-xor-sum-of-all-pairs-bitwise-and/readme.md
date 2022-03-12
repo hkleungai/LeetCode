@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>The <strong>XOR sum</strong> of a list is the bitwise <code>XOR</code> of all its elements. If the list only contains one element, then its <strong>XOR sum</strong> will be equal to this element.</p>
 

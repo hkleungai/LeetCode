@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A password is considered strong if the below conditions are all met:</p>
 

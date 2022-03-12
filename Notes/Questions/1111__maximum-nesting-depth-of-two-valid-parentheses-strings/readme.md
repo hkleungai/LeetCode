@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A string is a <em>valid parentheses string</em>&nbsp;(denoted VPS) if and only if it consists of <code>&quot;(&quot;</code> and <code>&quot;)&quot;</code> characters only, and:</p>
 

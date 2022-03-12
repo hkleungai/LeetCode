@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>An array is <strong>monotonic</strong> if it is either monotone increasing or monotone decreasing.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A <code>k</code>-booking happens when <code>k</code> events have some non-empty intersection (i.e., there is some time that is common to all <code>k</code> events.)</p>
 

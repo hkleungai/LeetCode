@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given <code>nums</code>, an array of positive integers of size <code>2 * n</code>. You must perform <code>n</code> operations on this array.</p>
 

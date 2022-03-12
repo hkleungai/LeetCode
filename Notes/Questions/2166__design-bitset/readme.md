@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A <strong>Bitset</strong> is a data structure that compactly stores bits.</p>
 

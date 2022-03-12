@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of&nbsp;integers <code>arr</code> and an integer <code>d</code>. In one step you can jump from index <code>i</code> to index:</p>
 

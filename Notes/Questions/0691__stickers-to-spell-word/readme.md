@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>We are given <code>n</code> different types of <code>stickers</code>. Each sticker has a lowercase English word on it.</p>
 

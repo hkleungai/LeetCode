@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>An <strong>ugly number</strong> is a positive integer that is divisible by <code>a</code>, <code>b</code>, or <code>c</code>.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You have a long flowerbed in which some of the plots are planted, and some are not. However, flowers cannot be planted in <strong>adjacent</strong> plots.</p>
 

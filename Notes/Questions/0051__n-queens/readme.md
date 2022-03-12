@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>The <strong>n-queens</strong> puzzle is the problem of placing <code>n</code> queens on an <code>n x n</code> chessboard such that no two queens attack each other.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a parentheses string <code>s</code> containing only the characters <code>&#39;(&#39;</code> and <code>&#39;)&#39;</code>. A parentheses string is <strong>balanced</strong> if:</p>
 

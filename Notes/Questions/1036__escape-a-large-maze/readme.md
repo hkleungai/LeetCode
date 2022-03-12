@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There is a 1 million by 1 million grid on an XY-plane, and the coordinates of each grid square are <code>(x, y)</code>.</p>
 

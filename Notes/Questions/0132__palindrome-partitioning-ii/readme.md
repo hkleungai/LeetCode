@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a string <code>s</code>, partition <code>s</code> such that every substring of the partition is a palindrome.</p>
 

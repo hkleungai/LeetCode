@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There is an integer array <code>nums</code> that consists of <code>n</code> <strong>unique </strong>elements, but you have forgotten it. However, you do remember every pair of adjacent elements in <code>nums</code>.</p>
 

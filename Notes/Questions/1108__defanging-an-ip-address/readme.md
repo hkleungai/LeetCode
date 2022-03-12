@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a valid (IPv4) IP <code>address</code>, return a defanged version of that IP address.</p>
 

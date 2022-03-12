@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a list of songs where the <code>i<sup>th</sup></code> song has a duration of <code>time[i]</code> seconds.</p>
 

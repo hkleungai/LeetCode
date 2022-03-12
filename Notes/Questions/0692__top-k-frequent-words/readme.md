@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given an array of strings <code>words</code> and an integer <code>k</code>, return <em>the </em><code>k</code><em> most frequent strings</em>.</p>
 

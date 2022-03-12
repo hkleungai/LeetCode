@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a string <code>s</code>, determine if it is <strong>valid</strong>.</p>
 

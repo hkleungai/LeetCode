@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a rectangle of size <code>n</code> x <code>m</code>, return <em>the minimum number of integer-sided squares that tile the rectangle</em>.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Alice has some number of cards and she wants to rearrange the cards into groups so that each group is of size <code>groupSize</code>, and consists of <code>groupSize</code> consecutive cards.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>You are given a 2D integer array <code>logs</code> where each <code>logs[i] = [birth<sub>i</sub>, death<sub>i</sub>]</code> indicates the birth and death years of the <code>i<sup>th</sup></code> person.</p>
 

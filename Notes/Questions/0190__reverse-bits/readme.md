@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Reverse bits of a given 32 bits unsigned integer.</p>
 

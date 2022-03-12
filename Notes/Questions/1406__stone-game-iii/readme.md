@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Alice and Bob continue their games with piles of stones. There are several stones <strong>arranged in a row</strong>, and each stone has an associated value which is an integer given in the array <code>stoneValue</code>.</p>
 

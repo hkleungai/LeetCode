@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>A <strong>complete binary tree</strong> is a binary tree in which every level, except possibly the last, is completely filled, and all nodes are as far left as possible.</p>
 

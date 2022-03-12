@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Alice plays the following game, loosely based on the card game <strong>&quot;21&quot;</strong>.</p>
 

@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>The <strong>count-and-say</strong> sequence is a sequence of digit strings defined by the recursive formula:</p>
 

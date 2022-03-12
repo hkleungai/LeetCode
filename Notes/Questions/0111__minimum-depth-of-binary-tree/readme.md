@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>Given a binary tree, find its minimum depth.</p>
 

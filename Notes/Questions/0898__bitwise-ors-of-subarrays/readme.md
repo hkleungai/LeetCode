@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>We have an array <code>arr</code> of non-negative integers.</p>
 

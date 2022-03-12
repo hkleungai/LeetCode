@@ -1,4 +1,4 @@
-# Question Description
+# Problem Statement
 
 <p>There are some stones in different positions on the X-axis. You are given an integer array <code>stones</code>, the positions of the stones.</p>
 

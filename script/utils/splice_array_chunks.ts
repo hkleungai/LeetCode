@@ -3,10 +3,6 @@ import { is_stringified_safe_integer } from '../validators';
 const splice_array_chunks = <T, >(
   raw_array: T[],
   chunkSize: number,
-  options?: {
-    delimiter?: (items: T[]) => void;
-  },
-  // delimiter?: T
 ) => {
   if (!is_stringified_safe_integer(chunkSize.toString())) {
     return [];
@@ -17,7 +13,6 @@ const splice_array_chunks = <T, >(
   const result: T[][] = [];
   while (raw_array.length > 1) {
     result.push(raw_array.splice(0, chunkSize));
-    options?.delimiter?.(raw_array);
   }
   return result;
 }
