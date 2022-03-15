@@ -20,11 +20,11 @@
 <strong>Input:</strong> n = 3, startPos = [0,1], s = &quot;RRDDLU&quot;
 <strong>Output:</strong> [1,5,4,3,1,0]
 <strong>Explanation:</strong> Starting from startPos and beginning execution from the i<sup>th</sup> instruction:
-- 0<sup>th</sup>: &quot;<u><strong>R</strong></u>RDDLU&quot;. Only one instruction &quot;R&quot; can be executed before it moves off the grid.
-- 1<sup>st</sup>:  &quot;<u><strong>RDDLU</strong></u>&quot;. All five instructions can be executed while it stays in the grid and ends at (1, 1).
-- 2<sup>nd</sup>:   &quot;<u><strong>DDLU</strong></u>&quot;. All four instructions can be executed while it stays in the grid and ends at (1, 0).
-- 3<sup>rd</sup>:    &quot;<u><strong>DLU</strong></u>&quot;. All three instructions can be executed while it stays in the grid and ends at (0, 0).
-- 4<sup>th</sup>:     &quot;<u><strong>L</strong></u>U&quot;. Only one instruction &quot;L&quot; can be executed before it moves off the grid.
+- 0<sup>th</sup>: &quot;<ins><strong>R</strong></ins>RDDLU&quot;. Only one instruction &quot;R&quot; can be executed before it moves off the grid.
+- 1<sup>st</sup>:  &quot;<ins><strong>RDDLU</strong></ins>&quot;. All five instructions can be executed while it stays in the grid and ends at (1, 1).
+- 2<sup>nd</sup>:   &quot;<ins><strong>DDLU</strong></ins>&quot;. All four instructions can be executed while it stays in the grid and ends at (1, 0).
+- 3<sup>rd</sup>:    &quot;<ins><strong>DLU</strong></ins>&quot;. All three instructions can be executed while it stays in the grid and ends at (0, 0).
+- 4<sup>th</sup>:     &quot;<ins><strong>L</strong></ins>U&quot;. Only one instruction &quot;L&quot; can be executed before it moves off the grid.
 - 5<sup>th</sup>:      &quot;U&quot;. If moving up, it would move off the grid.
 </pre>
 
@@ -34,8 +34,8 @@
 <strong>Input:</strong> n = 2, startPos = [1,1], s = &quot;LURD&quot;
 <strong>Output:</strong> [4,1,0,0]
 <strong>Explanation:</strong>
-- 0<sup>th</sup>: &quot;<u><strong>LURD</strong></u>&quot;.
-- 1<sup>st</sup>:  &quot;<u><strong>U</strong></u>RD&quot;.
+- 0<sup>th</sup>: &quot;<ins><strong>LURD</strong></ins>&quot;.
+- 1<sup>st</sup>:  &quot;<ins><strong>U</strong></ins>RD&quot;.
 - 2<sup>nd</sup>:   &quot;RD&quot;.
 - 3<sup>rd</sup>:    &quot;D&quot;.
 </pre>

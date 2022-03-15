@@ -11,7 +11,7 @@
 <p>A <strong>subsequence</strong> of an array is a sequence that can be formed by removing some elements (possibly none) of the array.</p>
 
 <ul>
-	<li>For example, <code>[2,5,10]</code> is a subsequence of <code>[1,2,1,<strong><u>2</u></strong>,4,1,<u><strong>5</strong></u>,<u><strong>10</strong></u>]</code>.</li>
+	<li>For example, <code>[2,5,10]</code> is a subsequence of <code>[1,2,1,<strong><ins>2</ins></strong>,4,1,<ins><strong>5</strong></ins>,<ins><strong>10</strong></ins>]</code>.</li>
 </ul>
 
 <p>Return <em>the <strong>number</strong> of <strong>different</strong> GCDs among all <strong>non-empty</strong> subsequences of</em> <code>nums</code>.</p>

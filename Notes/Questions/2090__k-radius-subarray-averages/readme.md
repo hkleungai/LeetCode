@@ -14,7 +14,7 @@
 
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/11/07/eg1.png" style="width: 343px; height: 119px;" />
+<img alt="" src="eg1.png" style="width: 343px; height: 119px;" />
 <pre>
 <strong>Input:</strong> nums = [7,4,3,9,1,8,5,2,6], k = 3
 <strong>Output:</strong> [-1,-1,-1,5,4,4,-1,-1,-1]

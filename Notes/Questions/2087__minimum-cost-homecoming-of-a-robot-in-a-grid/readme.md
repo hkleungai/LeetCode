@@ -19,10 +19,10 @@
 <strong>Output:</strong> 18
 <strong>Explanation:</strong> One optimal path is that:
 Starting from (1, 0)
--&gt; It goes down to (<u><strong>2</strong></u>, 0). This move costs rowCosts[2] = 3.
--&gt; It goes right to (2, <u><strong>1</strong></u>). This move costs colCosts[1] = 2.
--&gt; It goes right to (2, <u><strong>2</strong></u>). This move costs colCosts[2] = 6.
--&gt; It goes right to (2, <u><strong>3</strong></u>). This move costs colCosts[3] = 7.
+-&gt; It goes down to (<ins><strong>2</strong></ins>, 0). This move costs rowCosts[2] = 3.
+-&gt; It goes right to (2, <ins><strong>1</strong></ins>). This move costs colCosts[1] = 2.
+-&gt; It goes right to (2, <ins><strong>2</strong></ins>). This move costs colCosts[2] = 6.
+-&gt; It goes right to (2, <ins><strong>3</strong></ins>). This move costs colCosts[3] = 7.
 The total cost is 3 + 2 + 6 + 7 = 18</pre>
 
 <p><strong>Example 2:</strong></p>

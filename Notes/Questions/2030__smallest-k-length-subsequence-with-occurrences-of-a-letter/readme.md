@@ -15,10 +15,10 @@
 <strong>Input:</strong> s = &quot;leet&quot;, k = 3, letter = &quot;e&quot;, repetition = 1
 <strong>Output:</strong> &quot;eet&quot;
 <strong>Explanation:</strong> There are four subsequences of length 3 that have the letter &#39;e&#39; appear at least 1 time:
-- &quot;lee&quot; (from &quot;<strong><u>lee</u></strong>t&quot;)
-- &quot;let&quot; (from &quot;<strong><u>le</u></strong>e<u><strong>t</strong></u>&quot;)
-- &quot;let&quot; (from &quot;<u><strong>l</strong></u>e<u><strong>et</strong></u>&quot;)
-- &quot;eet&quot; (from &quot;l<u><strong>eet</strong></u>&quot;)
+- &quot;lee&quot; (from &quot;<strong><ins>lee</ins></strong>t&quot;)
+- &quot;let&quot; (from &quot;<strong><ins>le</ins></strong>e<ins><strong>t</strong></ins>&quot;)
+- &quot;let&quot; (from &quot;<ins><strong>l</strong></ins>e<ins><strong>et</strong></ins>&quot;)
+- &quot;eet&quot; (from &quot;l<ins><strong>eet</strong></ins>&quot;)
 The lexicographically smallest subsequence among them is &quot;eet&quot;.
 </pre>
 

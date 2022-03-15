@@ -35,8 +35,15 @@ const post_process_question_content = async (question_path: string, content: str
   }
   const urls = await Promise.all(url_matches.map((url) => process_image_url(url, question_path)));
   let count = 0;
-  return content.replace(image_url_regex, () => urls[count++]);
+  return (
+    content
+      // Replace url as relative file link
+      .replace(image_url_regex, () => urls[count++])
+
+      // Replace underline tag as md flavor ins tag
+      .replace(/<u>/g, '<ins>')
+      .replace(/<\/u>/g, '</ins>')
+  );
 }
 
 export default post_process_question_content;
-

@@ -21,10 +21,10 @@
 <strong>Explanation:</strong> The divisors for each number:
 1:   1
 2:   1, 2
-3:   1, <u>3</u>
-4:   1, 2, <u>4</u>
-5:   1, <u>5</u>
-6:   1, 2, <u>3</u>, <u>6</u>
+3:   1, <ins>3</ins>
+4:   1, 2, <ins>4</ins>
+5:   1, <ins>5</ins>
+6:   1, 2, <ins>3</ins>, <ins>6</ins>
 Using the underlined divisors above the threshold, only cities 3 and 6 share a common divisor, so they are the
 only ones directly connected. The result of each query:
 [1,4]   1 is not connected to 4

@@ -25,7 +25,7 @@ They are strictly increasing from left to right: 1 &lt; 3 &lt; 4 &lt; 6 &lt; 12.
 <pre>
 <strong>Input:</strong> s = &quot;hello world 5 x 5&quot;
 <strong>Output:</strong> false
-<strong>Explanation:</strong> The numbers in s are: <u><strong>5</strong></u>, <strong><u>5</u></strong>. They are not strictly increasing.
+<strong>Explanation:</strong> The numbers in s are: <ins><strong>5</strong></ins>, <strong><ins>5</ins></strong>. They are not strictly increasing.
 </pre>
 
 <p><strong>Example 3:</strong></p>
@@ -33,7 +33,7 @@ They are strictly increasing from left to right: 1 &lt; 3 &lt; 4 &lt; 6 &lt; 12.
 <pre>
 <strong>Input:</strong> s = &quot;sunset is at 7 51 pm overnight lows will be in the low 50 and 60 s&quot;
 <strong>Output:</strong> false
-<strong>Explanation:</strong> The numbers in s are: 7, <u><strong>51</strong></u>, <u><strong>50</strong></u>, 60. They are not strictly increasing.
+<strong>Explanation:</strong> The numbers in s are: 7, <ins><strong>51</strong></ins>, <ins><strong>50</strong></ins>, 60. They are not strictly increasing.
 </pre>
 
 <p>&nbsp;</p>

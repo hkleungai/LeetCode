@@ -23,8 +23,8 @@
 <pre>
 <strong>Input:</strong> s = &quot;7+3*1*2&quot;, answers = [20,13,42]
 <strong>Output:</strong> 7
-<strong>Explanation:</strong> As illustrated above, the correct answer of the expression is 13, therefore one student is rewarded 5 points: [20,<u><strong>13</strong></u>,42]
-A student might have applied the operators in this wrong order: ((7+3)*1)*2 = 20. Therefore one student is rewarded 2 points: [<u><strong>20</strong></u>,13,42]
+<strong>Explanation:</strong> As illustrated above, the correct answer of the expression is 13, therefore one student is rewarded 5 points: [20,<ins><strong>13</strong></ins>,42]
+A student might have applied the operators in this wrong order: ((7+3)*1)*2 = 20. Therefore one student is rewarded 2 points: [<ins><strong>20</strong></ins>,13,42]
 The points for the students are: [2,5,0]. The sum of the points is 2+5+0=7.
 </pre>
 
@@ -33,8 +33,8 @@ The points for the students are: [2,5,0]. The sum of the points is 2+5+0=7.
 <pre>
 <strong>Input:</strong> s = &quot;3+5*2&quot;, answers = [13,0,10,13,13,16,16]
 <strong>Output:</strong> 19
-<strong>Explanation:</strong> The correct answer of the expression is 13, therefore three students are rewarded 5 points each: [<strong><u>13</u></strong>,0,10,<strong><u>13</u></strong>,<strong><u>13</u></strong>,16,16]
-A student might have applied the operators in this wrong order: ((3+5)*2 = 16. Therefore two students are rewarded 2 points: [13,0,10,13,13,<strong><u>16</u></strong>,<strong><u>16</u></strong>]
+<strong>Explanation:</strong> The correct answer of the expression is 13, therefore three students are rewarded 5 points each: [<strong><ins>13</ins></strong>,0,10,<strong><ins>13</ins></strong>,<strong><ins>13</ins></strong>,16,16]
+A student might have applied the operators in this wrong order: ((3+5)*2 = 16. Therefore two students are rewarded 2 points: [13,0,10,13,13,<strong><ins>16</ins></strong>,<strong><ins>16</ins></strong>]
 The points for the students are: [5,0,0,5,5,2,2]. The sum of the points is 5+0+0+5+5+2+2=19.
 </pre>
 
