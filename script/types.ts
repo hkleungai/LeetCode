@@ -14,13 +14,8 @@ export interface QueryBody {
 }
 
 export interface DisplayValue {
-  display: string;
-  value: string;
-}
-
-export interface DisplayValues {
-  display: string;
-  values: string[];
+  single_value: { display: string, value: string; }
+  multi_value: Omit<DisplayValue['single_value'], 'value'> & { value: string[]; }
 }
 
 export interface RawQuestionDetail {
@@ -30,7 +25,7 @@ export interface RawQuestionDetail {
   is_premium: boolean;
   title_display: string;
   title_value: string;
-  topics: DisplayValue[];
+  topics: DisplayValue['single_value'][];
   similar_questions: string;
   status: string | null;
 }

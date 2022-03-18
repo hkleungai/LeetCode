@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 import markdownTable from 'markdown-table'
 import path from 'path';
 
-import Requests from './requests';
+import Requests from './Requests';
 import safe_fs from './safe_fs';
 import {
   execute_callback,
@@ -13,11 +13,11 @@ import {
 } from './utils';
 
 const main = async () => {
-  await execute_callback(request_for_question_details, 'request', 1);
-  await execute_callback(build_question_folders, 'building question folders', 1);
-  await execute_callback(process_raw_questions, 'processing', 1);
-  await execute_callback(generate_table_ui, 'UI generation', 1);
-  await execute_callback(write_table_files, 'Table Readme Edit', 1);
+  await execute_callback(request_for_question_details, 'request for question details', 1);
+  await execute_callback(build_question_folders, 'build question folders', 1);
+  await execute_callback(process_raw_questions, 'process raw questions', 1);
+  await execute_callback(generate_question_list_ui, 'generate question list UI', 1);
+  await execute_callback(write_question_lists, 'write question lists', 1);
 }
 
 let raw_question_details: Awaited<ReturnType<Requests['get_question_details']>>;
@@ -64,6 +64,10 @@ const build_question_folders = async () => {
     title_value_to_question_notes_path[title_value] = question_path;
     const absolute_question_path = path.resolve(__dirname, question_parent_path, question_path);
     const absolute_readme_path = path.resolve(absolute_question_path, readme_path);
+    // Skip rewriting problem statement to existing folder
+    if (safe_fs.existsSync(absolute_question_path) || safe_fs.existsSync(absolute_readme_path)) {
+      return [];
+    }
     let readme_content = '# Problem Statement\n\n';
     readme_content += (
       content
@@ -71,14 +75,19 @@ const build_question_folders = async () => {
         : 'To Be Filled By LeetCode owners'
     );
     return [absolute_readme_path, readme_content];
-  })
+  });
+  if (!readme_files_promise.length) {
+    return;
+  }
   const readme_files: string[][] = [];
   const readme_files_promise_chunks = splice_array_chunks(readme_files_promise, 20);
   for (const chunk of readme_files_promise_chunks) {
     readme_files.push(...(await Promise.all(chunk)));
   }
   readme_files.forEach(([path, file_content]) => {
-    safe_fs.writeFileSync(path, file_content);
+    if (path && file_content) {
+      safe_fs.writeFileSync(path, file_content);
+    }
   })
 }
 
@@ -101,14 +110,14 @@ const process_raw_questions = () => {
   );
 }
 
-let tables: string[];
+let question_lists: string[];
 let readme_text: string;
-const generate_table_ui = () => {
+const generate_question_list_ui = () => {
   const PAGE_ITEM_SIZE = 100;
   const README_TEMPLATE_PATH = path.resolve(__dirname, '../readme_template.md');
 
   const question_details_chunks = splice_array_chunks(post_processed_question_details, PAGE_ITEM_SIZE);
-  tables = question_details_chunks.map(question_chunk => (
+  question_lists = question_details_chunks.map(question_chunk => (
     markdownTable([
       ['Question', 'Free?', 'Status', 'Difficulty', 'Topics', 'Similar Questions'],
       ...question_chunk.map(Object.values),
@@ -120,20 +129,21 @@ const generate_table_ui = () => {
       .map((c, i, { length }) => {
         const left_id = i * PAGE_ITEM_SIZE + 1;
         const right_id = i * PAGE_ITEM_SIZE + c.length;
-        const table_id = left_pad_digits(i + 1, length);
-        return `* [Questions ${left_id} to ${right_id}](./doc/table-${table_id}.md)`
+        const question_list_id = left_pad_digits(i + 1, length);
+        return `* [Questions ${left_id} to ${right_id}](./Question_List/list-${question_list_id}.md)`
       })
       .join('\n')
   );
   readme_text = readme_template_text.replace('{{ REPLACEMENT }}', content_bullets);
 }
 
-const write_table_files = () => {
+const write_question_lists = () => {
   const README_TARGET_PATH = path.resolve(__dirname, '../readme.md');
   safe_fs.writeFileSync(README_TARGET_PATH, readme_text);
-  tables.forEach((table, i, { length }) => {
-    const table_file = path.resolve(__dirname, `../doc/table-${left_pad_digits(i + 1, length)}.md`);
-    safe_fs.writeFileSync(table_file, table);
+  question_lists.forEach((question_list, i, { length }) => {
+    const question_list_id = left_pad_digits(i + 1, length);
+    const question_list_file = path.resolve(__dirname, `../Question_List/list-${question_list_id}.md`);
+    safe_fs.writeFileSync(question_list_file, question_list);
   })
 }
 

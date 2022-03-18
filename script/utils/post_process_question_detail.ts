@@ -1,6 +1,6 @@
 import make_display_value_lists from './make_display_value_lists';
 import { DIFFICULTY, STATUS, PROBLEMS_URL, TAG_URL } from '../constants';
-import { DisplayValues, RawQuestionDetail } from '../types';
+import { DisplayValue, RawQuestionDetail } from '../types';
 
 const post_process_question_detail = (
   {
@@ -15,19 +15,19 @@ const post_process_question_detail = (
   title_value_to_id: Record<string, string>,
   title_value_to_question_notes_path: Record<string, string>,
 ): Record<string, string> => {
-  const post_process_display_values = (pseudo_display: string, pseudo_value: string): DisplayValues => {
+  const post_process_display_values = (pseudo_display: string, pseudo_value: string): DisplayValue['multi_value'] => {
     const display = `${title_value_to_id[pseudo_value]}. ${pseudo_display}`;
-    const values = [
+    const value = [
       '[:link:]' + `(${PROBLEMS_URL}/${pseudo_value})`,
       '[:memo:]' + `(../Notes/Questions/${title_value_to_question_notes_path[pseudo_value]})`
     ];
-    return { display, values };
+    return { display, value };
   };
 
 
   // Fine to have question that have no similar questions
   // TODO: Enhance stricter type
-  let similar_questions: DisplayValues[];
+  let similar_questions: DisplayValue['multi_value'][];
   try {
     similar_questions = (
       JSON.parse(raw_similar_questions)
@@ -44,16 +44,16 @@ const post_process_question_detail = (
   // Average-level LeetCoders might have more todo questions than the other two.
   const status = `${raw_status}`;
 
-  const title: DisplayValues = post_process_display_values(title_display, title_value);
+  const title: DisplayValue['multi_value'] = post_process_display_values(title_display, title_value);
 
-  const topics: DisplayValues[] = raw_topics.map(({ display, value }) => {
-    const values = [
-      '[:link:]' + `(${TAG_URL}/${value})`
+  const topics: DisplayValue['multi_value'][] = raw_topics.map(({ display, value: pseudo_value }) => {
+    const value = [
+      '[:link:]' + `(${TAG_URL}/${pseudo_value})`
     ];
     // // if (title_value_to_question_folder.has(value)) {
     // values.push('[My Notes]' + `(to be filled)`);
     // // }
-    return { display, values };
+    return { display, value };
   });
 
   const is_free_access = !is_premium;
