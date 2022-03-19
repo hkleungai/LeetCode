@@ -52,8 +52,8 @@ may go up to <code>10<sup>100</sup></code>.
 Since most langauges usually can only stored up to <code>2<sup>32</sup></code> bits for integers, _horizontal-sum_ approach is not practical in this question.
 
 Applying _vertical-sum_ approach means that 
-1. Iterate both lists at the same time
-2. At each step, sum nodes at the same index to obtain new place value and carry
+1. Sum nodes at the heads of the two lists to obtain place value and carry
+2. Move heads for both lists to their next pointer, and continue.
 
 This is more do-able, considering that linked-list favours linear scan one-after-another.
 

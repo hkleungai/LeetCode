@@ -73,7 +73,7 @@ is to ensure that the result pair comes from two different array indices, which 
 
 ```typescript
 memo = Set()
-for index_b from 0 to nums.length
+for index_b from 0 to nums.length - 1
     memo.set(target - b, index_b)
 ```
 
@@ -85,10 +85,10 @@ Hence the full program can be rewritten as below.
 ```typescript
 function twoSum(nums, target) {
     memo = Set()
-    for index_b from 0 to nums.length
+    for index_b from 0 to nums.length - 1
         memo.set(target - b, index_b)
 
-    for index_a from 0 to nums.length
+    for index_a from 0 to nums.length - 1
         a = nums[index_a]
         if not memo.has(a)
             continue
