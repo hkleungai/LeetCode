@@ -49,7 +49,7 @@ const request_for_question_details = async () => {
 
 const title_value_to_question_notes_path: Record<string, string> = {};
 const build_question_folders = async () => {
-  const question_parent_path = '../Questions';
+  const question_parent_path = '../public/Questions';
   const readme_path = './readme.md';
   // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
   const readme_files_promise = raw_question_details!.map(async ({ id, title_value, content }) => {
@@ -105,7 +105,7 @@ const process_raw_questions = () => {
 }
 
 let question_lists: string[];
-let readme_text: string;
+let readme_text: Record<string, string>;
 const generate_question_list_ui = () => {
   const PAGE_ITEM_SIZE = 100;
   const README_TEMPLATE_PATH = path.resolve(__dirname, '../readme_template.md');
@@ -118,25 +118,32 @@ const generate_question_list_ui = () => {
     ])
   ))
   const readme_template_text = safe_fs.readFileSync(README_TEMPLATE_PATH, { encoding: 'utf8' });
-  const content_bullets = (
+  const make_content_bullets = (options: { make_public: boolean }) => (
     question_details_chunks
       .map((c, i, { length }) => {
         const left_id = i * PAGE_ITEM_SIZE + 1;
         const right_id = i * PAGE_ITEM_SIZE + c.length;
+        const label = `Questions ${left_id} to ${right_id}`;
+
         const question_list_id = left_pad_digits(i + 1, length);
-        return `* [Questions ${left_id} to ${right_id}](./QuestionList/list-${question_list_id})`
+        const url = `./${options.make_public ? 'public/' : ''}QuestionList/list-${question_list_id}`;
+
+        return `* [${label}](${url})`
       })
       .join('\n')
   );
-  readme_text = readme_template_text.replace('{{ REPLACEMENT }}', content_bullets);
+  readme_text = {
+    index: readme_template_text.replace('{{ REPLACEMENT }}', make_content_bullets({ make_public: true })),
+    public: readme_template_text.replace('{{ REPLACEMENT }}', make_content_bullets({ make_public: false })),
+  };
 }
 
 const write_question_lists = () => {
-  const README_TARGET_PATH = path.resolve(__dirname, '../readme.md');
-  safe_fs.writeFileSync(README_TARGET_PATH, readme_text);
+  safe_fs.writeFileSync(path.resolve(__dirname, '../readme.md'), readme_text.index);
+  safe_fs.writeFileSync(path.resolve(__dirname, '../public/readme.md'), readme_text.public);
   question_lists.forEach((question_list, i, { length }) => {
     const question_list_id = left_pad_digits(i + 1, length);
-    const question_list_file = path.resolve(__dirname, `../QuestionList/list-${question_list_id}/readme.md`);
+    const question_list_file = path.resolve(__dirname, `../public/QuestionList/list-${question_list_id}/readme.md`);
     safe_fs.writeFileSync(question_list_file, question_list);
   })
 }
