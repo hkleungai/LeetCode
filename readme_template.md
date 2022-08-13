@@ -15,7 +15,7 @@ cookie=...
 ```shell
 $ nvm use
 $ yarn install
-$ yarn start-script
+$ yarn start
 ```
 
 # Content

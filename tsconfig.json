@@ -5,7 +5,7 @@
     "lib": ["es2021"],
     "downlevelIteration": true,
     "module": "CommonJS",
-    "target": "ES5",
+    "target": "ES2015",
     "strictNullChecks": true
   },
 }
