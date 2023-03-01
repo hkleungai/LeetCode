@@ -13,23 +13,24 @@ import {
 
 const main = async () => {
   await execute_callback(request_for_question_details, 'request for question details', 1);
+  await execute_callback(request_for_discussion_post, 'request for post in discussion')
   await execute_callback(build_question_folders, 'build question folders', 1);
   await execute_callback(process_raw_questions, 'process raw questions', 1);
-  await execute_callback(generate_question_list_ui, 'generate question list UI', 1);
-  await execute_callback(write_question_lists, 'write question lists', 1);
+  // await execute_callback(generate_question_list_ui, 'generate question list UI', 1);
+  // await execute_callback(write_question_lists, 'write question lists', 1);
 }
 
-let raw_question_details: Awaited<ReturnType<Requests['get_question_details']>>;
-let question_count: Awaited<ReturnType<Requests['get_question_count']>>;
+let raw_question_details: Awaited<ReturnType<(typeof Requests)['get_question_details']>>;
+let question_count: Awaited<ReturnType<(typeof Requests)['get_question_count']>>;
 const request_for_question_details = async () => {
   question_count = await requests.get_question_count();
   if (!question_count) {
     throw new Error('Question count cannot be retrieved');
   }
 
-  const raw_question_details_promises: ReturnType<Requests['get_question_details']>[] = [];
+  const raw_question_details_promises: ReturnType<(typeof Requests)['get_question_details']>[] = [];
   for (let skip = 0; skip < question_count; skip += 50) {
-    raw_question_details_promises.push(requests.get_question_details(skip, 50));
+    raw_question_details_promises.push(requests.get_question_details(skip, Math.min(50, question_count - skip)));
   }
   raw_question_details = [];
   const raw_question_details_chunks = splice_array_chunks(raw_question_details_promises, 15);
@@ -42,7 +43,7 @@ const request_for_question_details = async () => {
       raw_question_details.push(...sub_chunk);
     }
   }
-  if (!raw_question_details.length || raw_question_details.length !== question_count) {
+  if (!raw_question_details.length || raw_question_details.length < question_count) {
     throw new Error('Questions cannot be retrieved');
   }
 };
@@ -146,6 +147,31 @@ const write_question_lists = () => {
     const question_list_file = path.resolve(__dirname, `../public/QuestionList/list-${question_list_id}/readme.md`);
     safe_fs.writeFileSync(question_list_file, question_list);
   })
+}
+
+async function request_for_discussion_post() {
+  const question_title = 'count-number-of-texts';
+  let post_content: string | null;
+
+  /* Probably should extract it later */
+  await (
+    async () => {
+      const title_value_to_backend_id = Object.fromEntries(
+        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+        raw_question_details!.map(q => [q.title_value, q.backend_id])
+      )
+      const backend_id = title_value_to_backend_id[question_title];
+      const post_id = await requests.get_discuss_post_id(+backend_id, 'jimmy-leung-coherent');
+      if (post_id === null) {
+        return;
+      }
+      post_content = await requests.get_discuss_post_content(post_id.toString());
+    }
+  )();
+
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-ignore
+  console.log(post_content)
 }
 
 execute_callback(main, 'script');

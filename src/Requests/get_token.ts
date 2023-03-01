@@ -10,9 +10,9 @@ const parse_cookie_token = (cookie: string): string | null => {
   return is_valid_string(csrftoken) ? csrftoken : null;
 }
 
+// Get token from cookie in env,
+// Else get anonymous token by visiting the site.
 const get_token = async (cookie?: string): Promise<Nullable<string>> => {
-  // Get token from cookie in env,
-  // or else get "anonymous" token by visiting the site.
   if (cookie) {
     const token = parse_cookie_token(cookie);
     if (token) {
@@ -23,7 +23,7 @@ const get_token = async (cookie?: string): Promise<Nullable<string>> => {
     const response = await axios.get(BASE_URL);
     const set_cookie = response.headers['set-cookie'];
     if (!set_cookie || !set_cookie.length) {
-      return null;
+      throw new Error('[ERROR]: `response.headers[\'set-cookie\']` is nullish');
     }
     const [header_cookie] = set_cookie;
     return parse_cookie_token(header_cookie);

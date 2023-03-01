@@ -9,12 +9,12 @@ const Constructor = async (axios_instance: AxiosInstance, cookie?: string) => {
   }
   axios_instance.defaults.headers.post = {
     cookie: cookie || '',
-    "content-type": "application/json",
-    "credentials": "include",
-    "mode": "cors",
-    "referrer": ALL_PROBLEM_URL,
-    "referrerPolicy": "strict-origin-when-cross-origin",
-    "x-csrftoken": token,
+    'content-type': 'application/json',
+    credentials: 'include',
+    mode: 'cors',
+    referrer: ALL_PROBLEM_URL,
+    referrerPolicy: 'strict-origin-when-cross-origin',
+    'x-csrftoken': token,
   };
   if (cookie) {
     axios_instance.defaults.headers.post.cookie = cookie;

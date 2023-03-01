@@ -22,6 +22,7 @@ export interface RawQuestionDetail {
   content: string;
   difficulty: string;
   id: string;
+  backend_id: string;
   is_premium: boolean;
   title_display: string;
   title_value: string;
@@ -38,13 +39,9 @@ export interface RawQuestionDetail {
 //   title: DisplayValue;
 // }
 
-export interface PseudoRequestInterface<T> {
+export interface RequestInterface<T> {
   method: Method;
   request_body: QueryBody;
   response_path: string;
   is_valid_response: (data: T) => boolean;
-}
-
-export interface RequestInterface<T> extends PseudoRequestInterface<T> {
-  axios_instance: AxiosInstance
 }

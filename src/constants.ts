@@ -37,6 +37,7 @@ export enum QUERY {
       ) {
         data {
           difficulty
+          backend_id: questionId
           id: questionFrontendId
           is_premium: isPaidOnly
           title_display: title
@@ -48,6 +49,36 @@ export enum QUERY {
           similar_questions: similarQuestions
           content
           status
+        }
+      }
+    }
+  `,
+  DISCUSS_TOPIC = `#graphql
+    query DiscussTopic($topic_id: Int!) {
+      topic(id: $topic_id) {
+        post {
+          content
+        }
+      }
+    }
+  `,
+  // QUESTION_ID = `#graphql
+  //   query getLikesAndFavorites($titleSlug: String!) {
+  //     question(titleSlug: $titleSlug) {
+  //       id: questionId
+  //     }
+  //   }
+  // `
+  DISCUSS_TOPIC_List = `#graphql
+    query fetchTopics($backend_id: Int!, $query: String!, $orderBy: TopicSortingOption!) {
+      questionTopics(
+        questionId: $backend_id,
+        pageNo: 1,
+        orderBy: $orderBy,
+        query: $query
+      ) {
+        data {
+          post_id: id
         }
       }
     }

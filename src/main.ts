@@ -7,13 +7,10 @@ async function main() {
   try {
     LeetCode.set_requests(requests);
     await LeetCode.run();
-    console.log(LeetCode.question_count);
-    console.log(LeetCode.raw_question_details[0]);
   }
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-ignore
   catch (error: Error) {
-    // console.log(error.stack.split('\n').slice(1, 4));
     console.error(error.message);
     exit(1);
   }
